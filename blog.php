@@ -21,32 +21,37 @@
 			
 			<div class="boxesblog">First box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">Description of the image
 			</div>
 			
 			<div class="boxesblog">Second box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<div class="boxesblog">Third box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<div class="boxesblog">Fourth box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<div class="boxesblog">Fifth box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<div class="boxesblog">Sixth box
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image</div>
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<!--In CSS div.boxesblog img {} -->
