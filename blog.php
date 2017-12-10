@@ -21,7 +21,8 @@
 			
 			<div class="boxesblog">First box</div>
 			<!-- img src="" alt=""> -->
-			<div class="descblog">Description of the image
+			<div class="descblog">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			</div>
 			
 			<div class="boxesblog">Second box</div>
