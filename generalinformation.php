@@ -15,6 +15,7 @@
 		<!--Content here-->
 		
 		<!--General info-->
+		<article>
 		<h1>General info</h1>
 		<p>The Botanical Park is one of the largest parks in Aarhus, located near the city centre. It is part of the Botanical Gardens, which also contain the Greenhouses and are bordered by Den Gamle By.
 		The park is open all day every day and is free to enter. It is a place where you can surround yourself with green lawns, a variety of interesting trees from its days as a botanical garden, as well as a small stream, with the entire area spanning 21.5 hectares.
@@ -80,7 +81,7 @@
         <p>
         	There are public toilets available at the Greenhouses. These are open 9.00am – 4.00pm on weekdays and 10.00am – 5.00pm on weekends and public holidays.
         </p>
-		
+		</article>
 		<!--Footer:-->
 		<?php include("footer.php"); ?>
 	</body>
