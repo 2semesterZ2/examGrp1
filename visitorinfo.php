@@ -19,17 +19,15 @@
 		
 		<!--Four boxes with pictures and short description? or name on each of the pictures?-->
 			
-			<div class="boxesabout">Location</div>
+			<div class="boxesvisitorinfo">Location</div>
 			<!-- img src="" alt=""> -->
-			<div class="descabout"></div>
+			<div class="descvisitorinfo"></div>
 			</div>
 			
-			<div class="boxesabout">History</div>
+			<div class="boxesvisitorinfo">History</div>
 			<!-- img src="" alt=""> -->
-			<div class="descabout"></div>
+			<div class="descvisitorinfo"></div>
 			</div>
-			
-		
 			
 			<!--In CSS div.boxesprjectsandevents img {} -->
 			<!--In CSS div.descprojectsandevents {} -->
