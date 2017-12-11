@@ -1,71 +1,13 @@
-<nav>
-
-	<!--Drop-down navigation will be here-->
+<nav>    
+    <!-- Code Example for Dropdown Menu from W3Schools https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+    <!-- Applied changes in CSS and added JavaScript Eventlisteners to the buttons-->
     
-    <!-- Code Example for Dropdown Menu from W3Schools -->
-    
+    <!-- Adding the small arrow for the DropDown-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <style>
-        .navbar {
-            overflow: hidden;
-            background-color: #333;
-            font-family: Arial;
-        }
-        
-        .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+    <!-- Styling and arranging of the navbar-->
+    <link rel="stylesheet" type="text/css" href="navigation.css">
 
-    .dropdown {
-        float: left;
-        overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-        font-size: 16px;    
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-    }
-
-    .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: red;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-  </style>
-
+    <!-- Links for the navigation in the wanted order and dropdown classes for the hover-menur -->
     <div class="navbar">
         <a href="index.php">Home</a>
         <div class="dropdown">
@@ -87,17 +29,8 @@
         <a href="faq.php">FAQ</a>
         <a href="contact.php">Contact</a>
         <a href="blog.php">Blog</a>
-        
     </div>
     
-    <script>
-        var btnEvents = document.getElementById("btnEventsAndProjects");
-        btnEvents.addEventListener("click", function() {window.location.href = "projectsandevents.php";});
-        
-        var btnVisitInfo = document.getElementById("btnVisitInfo");
-        btnVisitInfo.addEventListener("click", function() {window.location.href = "visitorinfo.php";});
-        
-    </script>
-
-
+    <!-- EventListener for the buttons to redirect to the overall pages -->
+    <script src="navigation.js"></script>
 </nav>
