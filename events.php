@@ -43,8 +43,6 @@
 		If you are planning something bigger, you can get more information on how to book your event in the Botanical Park through the Brug Aarhus website.</p>
 
 
-
-
 	</article>
 	<!--Footer:-->
 	<?php include("footer.php"); ?>

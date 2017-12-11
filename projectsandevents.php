@@ -22,22 +22,22 @@
 		<!--Four boxes with pictures and short description-->
 			
 			<div class="boxesprojectsandevents">Projects</div>
-			<!-- img src="" alt=""> -->
+			<img src="/pictures/Projects.jpg" alt="Projects">
 			<div class="descprojectsandevents"></div>
 			</div>
 			
 			<div class="boxesprojectsandevents">Events</div>
-			<!-- img src="" alt=""> -->
+			<img src="/pictures/Events.jpg" alt="Events">
 			<div class="descprojectsandevents"></div>
 			</div>
 			
 			<div class="boxesprojectsandevents">Gallery</div>
-			<!-- img src="" alt=""> -->
+			<img src="/pictures/Gallery.jpg" alt="Gallery">
 			<div class="descprojectsandevents"></div>
 			</div>
 			
 			<div class="boxesprojectsandevents">Calendar</div>
-			<!-- img src="" alt=""> -->
+			<img src="/pictures/Calendar.jpg" alt="">
 			<div class="descprojectsandevents"></div>
 			</div>
 			
