@@ -30,8 +30,14 @@
 	<!--Weather box-->
 	<div id="weatherbox">
 		<h2>Today's Weather</h2>
-		<!--Insert daily weather here-->
-	</div>
+		<!-- Weather code from www.accuweather.com -->
+		<a href="https://www.accuweather.com/en/dk/aarhus/124594/weather-forecast/124594" class="aw-widget-legal">
+		<!--
+		By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+		-->
+		</a><div id="awcc1513001171605" class="aw-widget-current"  data-locationkey="124594" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1513001171605"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>--¨¨
+				<!--Insert daily weather here-->
+			</div>
 
 	<!--Maintenance box-->
 	<div id="maintenancebox">
