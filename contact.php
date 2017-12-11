@@ -20,6 +20,35 @@
 			<p>Check out our Frequently Asked Questions (or use the search box at the top of the site).</p>
 			
 			<h2>Send us a message by filling out this form: </h2>
+            
+            <form action="mailto:eaasfk@students.eaaa.dk" method="post" enctype="text/plain">
+                Your name: <br/>
+                <input type="text" name="name"/>
+                <br/>
+                Email: <br/>
+                <input type="email" name="email"/>
+                <br/>
+                Reason for contacting us: <br/>
+                <select name="reasonForContact">
+                    <option value="genEnquiry">General Enquiry</option>
+                    <option value="prblmPath">Problem with the paths</option>
+                    <option value="prblmPlant">Problem with trees/ the vegetation</option>
+                    <option value="rprtRepair">Report somthing that needs repairing</option>
+                    <option value="rptrWebsite">Report an issue with the website</option>
+                    <option value="project">Enquiry about a project</option>
+                    <option value="event">Enquiry about an event</option>
+                    <option value="other">Other reason</option>
+                </select>
+                <br/>
+                 <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea> 
+                <input type="submit" value="Submit"/>
+                <input type="reset" value="Reset"/>
+                
+            
+            </form>
+            
 			<!--Place for a Contact Form containing
 			Name:
 			Email:
