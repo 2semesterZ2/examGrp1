@@ -21,6 +21,10 @@
 
 	<!--Relevant today box-->
 	<h2>See what is happening in the park</h2>
+	<div id="projectsandeventsbox">
+		<!--Projects and Events slideshow here-->
+	</div>
+	
 	<!--Clickable display of upcoming/ ongoing projects and events-->
 
 	<!--Weather box-->
@@ -35,10 +39,7 @@
 		<p>There is no maintenance being carried out today :)<br/> We are mowing the lawns
 			<!--insert area description from 10am-->.<br/> The ponds are being cleaned over the next week, starting on [insert date].<br/> A sick tree is being removed from [insert area description] today.</p>
 		<!--Maintenance log link -->
-	</div>
-
-	<div id="projectsandeventsbox">
-		<!--Projects and Events slideshow here-->
+		
 	</div>
 	</article>
 	<!--Footer:-->
