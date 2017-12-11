@@ -40,9 +40,8 @@
                     <option value="other">Other reason</option>
                 </select>
                 <br/>
-                 <textarea name="message" rows="10" cols="30">
-The cat was playing in the garden.
-</textarea> 
+                <textarea name="message" rows="10" cols="30">Please enter your message here.</textarea> 
+                <br/>
                 <input type="submit" value="Submit"/>
                 <input type="reset" value="Reset"/>
                 
