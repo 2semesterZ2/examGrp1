@@ -43,8 +43,8 @@
 			<p>Call: 89 40 44 00
 			
 			<h2>Spotted something that needs fixing?</h2>
-			<p>You can download the <!--LINK to BORGERTIP app--> to report any damage or lack of maintenance within the Kommune. 
-			Available on iOS or Android.
+			<p>You can download the <a href="http://www.aarhus.dk/borgertip">BorgerTip App</a> to report any damage or lack of maintenance within the Kommune. 
+			Available on <a href="https://itunes.apple.com/dk/app/skyhost-borger-tip/id1124427859?l=da&mt=8">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.skyhost.citizentip">Android</a>.
 			</p>
 			
 			<h2>Thinking of hosting an event?</h2>
