@@ -22,12 +22,12 @@
 		<!--Two boxes with pictures and short description? or name on each of the pictures?-->
 			
 			<div class="boxesvisitorinfo">Location</div>
-			<!-- img src="" alt=""> -->
+			<img src="/pictures/Location.jpg" alt="Park's Location">
 			<div class="descvisitorinfo"></div>
 			</div>
 			
 			<div class="boxesvisitorinfo">History</div>
-			<!-- img src="" alt=""> -->
+			<img src="pictures/History.jpg" alt="Historical picture">
 			<div class="descvisitorinfo"></div>
 			</div>
 			
