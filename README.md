@@ -1,2 +1,2 @@
-# examGrp1
-This repository contains the code for the exam project of students of the 2nd semester Multimedia Design and Communication at the BAAA.
+# Work in Progress
+This branch contains our productive code, all the thins we work on. 
