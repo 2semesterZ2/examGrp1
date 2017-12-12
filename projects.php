@@ -24,31 +24,28 @@ include("includes/head.php"); ?>
 			We want this to be a place that brings the community together, and where better to do this than in the heart of the Botanical Park. Meetings are already underway about getting this community-lead project started, so that building can hopefully begin towards the end of 2018.</p>
 
 			<p>We would love to hear from you if you have any suggestions for what to include in this exciting new project. To send us ideas, please see/ fill out the form below.</p>
-
-            <form action="mailto:eaasfk@students.eaaa.dk" method="post" enctype="text/plain">
+            
+            <!-- Indluce the form handler and the upload hanlder-->
+            <?php include("includes/pictureAndFormHandler.php"); ?>
+            <form method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
                 Your name: <br/>
                 <input type="text" name="name"/>
+                <span class="error">* <?php echo $errName;?></span>
                 <br/>
                 Email: <br/>
                 <input type="email" name="email"/>
+                <span class="error">* <?php echo $errEmail;?></span>
                 <br/>
                 Suggestion:
                 <br/>
                 <textarea name="message" rows="10" cols="30">Please enter your message here.</textarea>
+                <span class="error">* <?php echo $errMessage;?></span>
                 <br/>
                 Attach a picture:
-                //Add formpart
-                <!--
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                    Select image to upload:
-                    <input type="file" name="fileToUpload" id="fileToUpload">
-                    <input type="submit" value="Upload Image" name="submit">
-                    </form>
-                -->
-
-
                 <br/>
-                <input type="submit" value="Submit"/>
+                <input type="file" name="fileToUpload" id="fileToUpload"/>
+                <br/>
+                <input type="submit" value="Upload Image" name="submit">
                 <input type="reset" value="Reset"/>
             </form>
 
