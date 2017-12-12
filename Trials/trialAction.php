@@ -32,12 +32,10 @@
       $data = htmlspecialchars($data);
       return $data;
     }
-?>
-
-<!-- Here is for working with the uploaded file -->
 
 
-<?php
+//<!-- Here is for working with the uploaded file -->
+
     $target_dir = "uploads/";
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
