@@ -1,17 +1,10 @@
-<!doctype html>
-<html>
-
-<head>
-	<meta charset="UTF-8">
-	<title>Botanical Park</title>
-	<!--CSS here-->
-</head>
+<?php include("includes/head.php"); ?>
 
 <body>
 	<!--Header:-->
-	<?php include("header.php"); ?>
+	<?php include("includes/header.php"); ?>
 	<!--Navigation:-->
-	<?php include("navigation.php"); ?>
+	<?php include("includes/navigation.php"); ?>
 
 	<!--Content here-->
 	<article>
@@ -43,7 +36,7 @@
 	</div>
 	</article>
 	<!--Footer:-->
-	<?php include("footer.php"); ?>
+	<?php include("includes/footer.php"); ?>
 </body>
 
 </ html>

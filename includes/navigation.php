@@ -5,7 +5,7 @@
     <!-- Adding the small arrow for the DropDown-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- Styling and arranging of the navbar-->
-    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
 
     <!-- Links for the navigation in the wanted order and dropdown classes for the hover-menur -->
     <div class="navbar">
@@ -32,5 +32,5 @@
     </div>
     
     <!-- EventListener for the buttons to redirect to the overall pages -->
-    <script src="navigation.js"></script>
+    <script src="javascript/navigation.js"></script>
 </nav>
