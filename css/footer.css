@@ -1,0 +1,56 @@
+*{margin: 0;
+padding: 0;}
+
+div.footer-content {
+  background-color: #3A402E;
+display: flex;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+a:hover {
+  color: #A9A9A9;
+}
+
+img.footerLogo {
+  width: 20%;
+
+}
+
+div.logo-copyright {
+  padding: 4% 0 0 1%;
+  flex-grow: 1;
+}
+
+div.contactInformation {
+  flex-grow: 1;
+
+}
+
+div.socialMediaInformation {
+  flex-grow: 1;
+  padding-top: 2%;
+}
+
+div.links {
+  flex-grow: 1;
+  padding-top: 2%;
+}
