@@ -1,4 +1,8 @@
-<?php include("includes/head.php"); ?>
+<?php
+$title= "The Botanical Park | Projects";
+$description="Information on upcoming and past projects taking place at the The Botanical Park.";
+$keywords="botanical, park, aarhus, green, nature, denmark, city center, projects, playground, building, refurbishing, planting, ";
+include("includes/head.php"); ?>
 
 	<body>
 		<!--Header:-->

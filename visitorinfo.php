@@ -1,4 +1,8 @@
-<?php include("includes/head.php"); ?>
+<?php
+$title= "The Botanical Park | Visitor Information";
+$description="General information and the history of the Botanical Park.";
+$keywords="botanical, park, aarhus, green, nature, denmark, city center, trees, history, outdoors, barbecue, grill, events";
+ include("includes/head.php"); ?>
 
 	<body>
 		<!--Header:-->

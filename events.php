@@ -1,4 +1,8 @@
-<?php include("includes/head.php"); ?>
+<?php
+$title= "The Botanical Park | Events";
+$description="Information on upcoming and past events taking place at the The Botanical Park.";
+$keywords="botanical, park, aarhus, green, nature, denmark, city center, events, cinema, music festival, groups, , ";
+include("includes/head.php"); ?>
 
 <body>
 	<!--Header:-->
