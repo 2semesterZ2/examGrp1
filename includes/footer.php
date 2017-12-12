@@ -17,7 +17,7 @@
 		<li>Adress: Hack Kampmanns Plads 2</li>
 		<li>8000 Aarhus C</li>
 		<br/>
-		<li>& #12822 : 89 40 44 00</li>
+		<li>&#128222 : 89 40 44 00</li>
 	</div>
 	<div class="socialMediaInformation">
 		<!--link to social media-->
