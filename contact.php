@@ -38,8 +38,6 @@
                 <br/>
                 <input type="submit" value="Submit"/>
                 <input type="reset" value="Reset"/>
-                
-            
             </form>
             
 			<!--Place for a Contact Form containing

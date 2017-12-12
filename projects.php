@@ -20,15 +20,33 @@
 			We want this to be a place that brings the community together, and where better to do this than in the heart of the Botanical Park. Meetings are already underway about getting this community-lead project started, so that building can hopefully begin towards the end of 2018.</p>
 
 			<p>We would love to hear from you if you have any suggestions for what to include in this exciting new project. To send us ideas, please see/ fill out the form below.</p>
-			
-			<!--FORM -->
-			<!--Name:
-			Email:
-			Suggestion:
-			Type message here
-			Attach a picture:
-			Upload
-			SUBMIT-->
+            
+            <form action="mailto:eaasfk@students.eaaa.dk" method="post" enctype="text/plain">
+                Your name: <br/>
+                <input type="text" name="name"/>
+                <br/>
+                Email: <br/>
+                <input type="email" name="email"/>
+                <br/>
+                Suggestion:
+                <br/>
+                <textarea name="message" rows="10" cols="30">Please enter your message here.</textarea> 
+                <br/>
+                Attach a picture:
+                //Add formpart
+                <!--
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Upload Image" name="submit">
+                    </form>
+                -->
+                
+                
+                <br/>
+                <input type="submit" value="Submit"/>
+                <input type="reset" value="Reset"/>
+            </form>
 
 			
 			<h3>Two new rose species arriving</h3>
