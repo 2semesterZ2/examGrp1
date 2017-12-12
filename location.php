@@ -33,8 +33,8 @@ include("includes/head.php"); ?>
 		<p>There are bicycle racks at the south entrance to the park on Vesterbrogade, where you can park your bicycle. If you’re just cycling through, this is allowed along Peter Holms Vej at the top of the park.</p>
 
 		<h3>By car</h3>
-		<p>There is access by car along Peter Holms Vej, from Hjortensgade. This brings you to a round car park called “Poppelpladsen”, where there is nearly always available parking.
-		Additional parking can be found along Eugen Warmings Road, however this gets full very in the summer months because of visitors to Den Gamle By.
+		<p>There is access by car along Peter Holms Vej, from Hjortensgade. This brings you to a round, free of charge, car park called “Poppelpladsen”, where there is nearly always available parking.
+		Additional parking can be found along Eugen Warmings Road, however this gets very full in the summer months because of visitors to Den Gamle By.
 		</p>
 
 		<h3>By bus</h3>
