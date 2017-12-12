@@ -8,11 +8,11 @@
 
 	<!--Content here-->
 	<article>
-		
+
 		<h1>Upcoming Events</h1>
-		
+
 		<h2>Zulu Outdoor Cinema</h2>
-		<img src="/pictures/Zulu.jpg" alt="Zulu">
+		<img src="pictures/Zulu.jpg" alt="Zulu">
 		<p>
 		TV2’s Zulu hosts their yearly outdoor cinema in the Botanical Park. Bring your friends and family, take a spot on the lawn and enjoy some of the best movies that came out this year!
 		The event is free, and screenings start just after sunset.
@@ -26,9 +26,9 @@
 		For more information please visit Stella Polaris’ official website.</p>
 
 		<h2>Red Bull Soapbox Race</h2>
-		<img src="/pictures/Soap box.jpg" alt="Red Bull Soap Box">
+		<img src="pictures/Soap box.jpg" alt="Red Bull Soap Box">
 		<p>Insert picture here
-		Red Bull gives you wheels. The energy drink hosts an annual soap box race on the slopes of the Botanical Park. Dozens of teams competing in front of thousands of spectators to drive the most creative and fastest soapbox car. 
+		Red Bull gives you wheels. The energy drink hosts an annual soap box race on the slopes of the Botanical Park. Dozens of teams competing in front of thousands of spectators to drive the most creative and fastest soapbox car.
 		Reaching the finishing line on wheels isn’t necessary, having fun is a must.
 		The event is free, and open to all ages!
 		For more information, please visit Red Bull’s official website.</p>

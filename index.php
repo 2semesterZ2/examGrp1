@@ -31,6 +31,10 @@ $keywords="botanical, park, aarhus, green, nature, denmark, city center, trees, 
 	<div id="weatherbox">
 		<h2>Today's Weather</h2>
 		<!--Insert daily weather here-->
+		<!--Daily weather from meteoblue.com -->
+ -        <!--https://www.meteoblue.com/en/weather/forecast/week/aarhus_denmark_2624652?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget
+ -        -->
+ -       <iframe src="https://www.meteoblue.com/en/weather/widget/three/aarhus_denmark_2624652?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 460px;height: 597px"></iframe>
 	</div>
 
 	<!--Maintenance box-->

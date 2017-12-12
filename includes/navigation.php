@@ -10,7 +10,7 @@
 
     <!-- Links for the navigation in the wanted order and dropdown classes for the hover-menur -->
     <div class="navbar">
-        <a href="../index.php">Home</a>
+        <a href="index.php">Home</a>
         <div class="dropdown">
             <button id="btnEventsAndProjects" class="dropbtn">Projects &amp; Events  <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
@@ -33,5 +33,5 @@
     </div>
 
     <!-- EventListener for the buttons to redirect to the overall pages -->
-    <script src="../javascript/navigation.js"></script>
+    <script src="javascript/navigation.js"></script>
 </nav>
