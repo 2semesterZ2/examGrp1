@@ -1,15 +1,16 @@
-<nav>    
+<nav>
     <!-- Code Example for Dropdown Menu from W3Schools https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
     <!-- Applied changes in CSS and added JavaScript Eventlisteners to the buttons-->
-    
+
     <!-- Adding the small arrow for the DropDown-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- Styling and arranging of the navbar-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,500" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
 
     <!-- Links for the navigation in the wanted order and dropdown classes for the hover-menur -->
     <div class="navbar">
-        <a href="index.php">Home</a>
+        <a href="../index.php">Home</a>
         <div class="dropdown">
             <button id="btnEventsAndProjects" class="dropbtn">Projects &amp; Events  <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
@@ -30,7 +31,7 @@
         <a href="contact.php">Contact</a>
         <a href="blog.php">Blog</a>
     </div>
-    
+
     <!-- EventListener for the buttons to redirect to the overall pages -->
-    <script src="javascript/navigation.js"></script>
+    <script src="../javascript/navigation.js"></script>
 </nav>
