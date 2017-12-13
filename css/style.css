@@ -17,6 +17,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     margin-top: 1%;
+	margin-bottom: 1%;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -144,6 +145,35 @@ textarea {
 	}
 input[type=file]{
 	margin: 1% 0;
+}
+/*events sub-page styling starts here*/
+/*centering and scaling all the images*/
+#zulubox {
+    text-align: center;
+}
+#zulubox img {
+    max-width: 50%;
+}
+#stellabox {
+    text-align: center;
+}
+#stellabox img {
+    max-width: 50%;
+}
+#soapbox {
+    text-align: center;
+}
+#soapbox img {
+    max-width: 50%;
+}
+#hostingbox {
+    text-align: center;
+}
+#hostingbox img {
+    max-width: 50%;
+}
+#hosting{
+	margin: 3% 0 1% 0;
 }
 /*visitor information landing page styling starts here*/
 /*position the images in the centre, equally spaced*/
