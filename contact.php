@@ -5,6 +5,8 @@ $keywords="botanical, park, aarhus, green, nature, denmark, city center, email, 
 include("includes/head.php"); ?>
 
 	<body>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        
 		<!--Header:-->
 		<?php include("includes/header.php"); ?>
 		<!--Navigation:-->
@@ -15,19 +17,19 @@ include("includes/head.php"); ?>
 			<h1>Contact us</h1>
 
 			<h2>Have a question?</h2>
-			<p>Check out our Frequently Asked Questions (or use the search box at the top of the site).</p>
+			<p>Check out our <a href="faq.php">Frequently Asked Questions</a> (or use the search box at the top of the site).</p>
 
 			<h2>Send us a message by filling out this form: </h2>
-
-            <form action="mailto:eaasfk@students.eaaa.dk" method="post" enctype="text/plain">
+            
+            <form action="mailto:kraftsa60869@th-nuernberg.de" id="contactForm" onsubmit="sendEMail()" enctype="text/plain"> 
                 Your name: <br/>
-                <input type="text" name="name"/>
+                <input type="text" name="name" id="name"/>
                 <br/>
                 Email: <br/>
-                <input type="email" name="email"/>
+                <input type="email" name="email" id="senderEMail"/>
                 <br/>
                 Reason for contacting us: <br/>
-                <select name="reasonForContact">
+                <select name="reasonForContact" id="rsnCntct">
                     <option value="genEnquiry">General Enquiry</option>
                     <option value="prblmPath">Problem with the paths</option>
                     <option value="prblmPlant">Problem with trees/ the vegetation</option>
@@ -38,33 +40,17 @@ include("includes/head.php"); ?>
                     <option value="other">Other reason</option>
                 </select>
                 <br/>
-                <textarea name="message" rows="10" cols="30">Please enter your message here.</textarea>
+                <textarea name="message" rows="10" cols="30" id="msgContact">Please enter your message here.</textarea>
                 <br/>
-                <input type="submit" value="Submit"/>
+                <input type="submit" value="Submit" />
                 <input type="reset" value="Reset"/>
             </form>
+                        
+            <script src="javascript/contactMail.js"></script>
 
-			<!--Place for a Contact Form containing
-			Name:
-			Email:
-			Reason for contacting us:
-			General enquiry
-			Problem with the paths
-			Problem with trees/ the vegetation
-			Report something that needs repairing
-			Report an issue with the website
-			Enquiry about a project
-			Enquiry about an event
-			Other reason
-			Include option to subscribe to newsletter here as well
-			SUBMIT
-
-			Example thank you message:
-
-			Thank you for for contacting us. We really value your input, and will get back to you as soon as we can. We try to answer all messages by the end of the next working day.-->
 
 			<h2>Need to reach the Kommune?</h2>
-			<p>Call: 89 40 44 00
+            <p>Call: 89 40 44 00</p>
 
 			<h2>Spotted something that needs fixing?</h2>
 			<p>You can download the <a href="http://www.aarhus.dk/borgertip">BorgerTip App</a> to report any damage or lack of maintenance within the Kommune.
