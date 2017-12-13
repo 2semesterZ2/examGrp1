@@ -4,11 +4,11 @@
 }
 footer {
     clear: both;
+	background-color: #3A402E;
+	overflow: hidden;
+	text-align: center;
 }
-div.footer-content {
-    background-color: #3A402E;
-    display: flex;
-}
+
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -21,7 +21,7 @@ li {
     font-size: 1em;
     color: #ffffff;
 }
-a {
+footer a {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     color: #ffffff;
@@ -29,21 +29,22 @@ a {
 a:hover {
     color: #A9A9A9;
 }
-img.footerLogo {
-    width: 20%;
-}
 div.logo-copyright {
-    padding: 4% 0 0 1%;
-    flex-grow: 1;
+    width: 33%;
+    float:left;
+	margin: 2% 0 1% 0;
+}
+img.footerLogo {
+    width: 40%;
 }
 div.contactInformation {
-    flex-grow: 1;
-}
-div.socialMediaInformation {
-    flex-grow: 1;
-    padding-top: 2%;
-}
+     width: 34%;
+    float:left;
+	margin-top: 1%;
+	}
+
 div.links {
-    flex-grow: 1;
-    padding-top: 2%;
+     width: 33%;
+    float:left;
+	margin-top: 1%;
 }

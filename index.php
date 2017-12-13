@@ -17,7 +17,7 @@
 	<article>
 		<h1>Welcome to the Botanical Park</h1>
 
-		<p>A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>
+		<p id="welcometext">A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>
 
 		<!--Relevant today box-->
 		<h2>See what is happening in the park</h2>
@@ -35,9 +35,10 @@
 			<!--Daily weather from meteoblue.com -->
 			<!--https://www.meteoblue.com/en/weather/forecast/week/aarhus_denmark_2624652?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget
  -        -->
-			<iframe src="https://www.meteoblue.com/en/weather/widget/three/aarhus_denmark_2624652?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 460px;height: 597px"></iframe>
+			<div id="iframe">
+				<iframe src="https://www.meteoblue.com/en/weather/widget/three/aarhus_denmark_2624652?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 460px;height: 597px"></iframe>
+			</div>
 		</div>
-
 		<!--Maintenance box-->
 		<div id="maintenancebox">
 			<h2>Today's Maintenance</h2>
@@ -51,4 +52,4 @@
 	<?php include("includes/footer.php"); ?>
 </body>
 
-	</html>
+</html>

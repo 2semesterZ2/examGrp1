@@ -11,16 +11,14 @@
 <div class="contactInformation">
 		<h3>Contact</h3>
 		<li>Aarhus Kommune</li>
-		<li>Adress: Hack Kampmanns Plads 2</li>
+		<li>Address: Hack Kampmanns Plads 2</li>
 		<li>8000 Aarhus C</li>
 		<br/>
 		<li>&#128222 : 89 40 44 00</li>
 	</div>
-	<div class="socialMediaInformation">
+	<div class="links">
 		<!--link to social media-->
 		<a href="https://www.facebook.com/AarhusKommune/">Facebook</a>
-	</div>
-	<div class="links">
 		<!--link to our blog-->
 <li><a href="faq.php">FAQ</a></li>
 <li><a href="blog.php">Blog</a></li>
