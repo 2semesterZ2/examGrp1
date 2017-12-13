@@ -1,11 +1,5 @@
 *{margin: 0;
 padding: 0;}
-#top-banner {
-  background-image: url(../pictures/banner-trees.jpg);
-background-size: 100%;
-padding-top: 16.22%;}
-
-.logo {float:left;}
 
 h1 {
   font-family: 'Quicksand', sans-serif;

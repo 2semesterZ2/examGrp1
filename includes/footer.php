@@ -1,8 +1,5 @@
-<head>
-	<link rel="stylesheet" href="css/footer.css" type="text/css">
-</head>
-
 <footer>
+	<link rel="stylesheet" href="css/footer.css" type="text/css">
 <div class="footer-content">
 	<ul>
 
