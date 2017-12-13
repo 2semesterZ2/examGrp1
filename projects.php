@@ -16,7 +16,7 @@ include( "includes/head.php" );
 
 		<h1>Upcoming Projects in the Botanical Park</h1>
 		<h2>New Playground in the Botanical Park</h2>
-			<div id="playgroundbox"><img src="pictures/projectplayground.jpg" alt="Project playground"></div>
+			<div id="playgroundbox"><img src="pictures/projectplayground.jpg" alt="A photo of a playground in a park"></div>
 		<p class="welcometext">
 			We are excited to announce that a new all-inclusive playground will be coming soon to the Botanical Park! With a variety of different structures and sensory experiences, the playground will be a fun place for children of all ages to interact with each other out in nature. We want this to be a place that brings the community together, and where better to do this than in the heart of the Botanical Park. Meetings are already underway about getting this community-lead project started, so that building can hopefully begin towards the end of 2018.</p>
 
@@ -46,12 +46,12 @@ include( "includes/head.php" );
 </div>
 
 		<h2>Two new rose species arriving</h2>
-		<div id="rosesbox"><img src="pictures/roses.jpg" alt="roses"></div>
+		<div id="rosesbox"><img src="pictures/roses.jpg" alt="A close-up photo of pink roses in a park."></div>
 		<p class="welcometext">Insert picture here The Friends of the Botanical Garden are re-organising the rose beds to include two new species of roses. Due to growing interest in their work, and an increase in the number of group members, they are now able to expand the rose collection. Work will begin on this project early next month, and we can’t wait to see the results. To see more about the work that the Friends of the Botanical Garden do for the park, visit their official Facebook page.</p>
 
 
 		<h2>Parking lot resurfacing</h2>
-		<div id="parkingbox"><img src="pictures/Car park resurfacing.jpg" alt="Car park"></div>
+		<div id="parkingbox"><img src="pictures/car-park-resurfacing.jpg" alt="A photograph of an excavator digging at a construction site"></div>
 		<p class="welcometext">Insert picture here The main car park on Peter Holms Vej is in need of resurfacing, which will begin in two weeks’ time. In order to minimise the inconvenience during this time, the Kommune has secured free overflow parking in some of the surrounding roads. For a full list of where you can park, please see this map. The project should be completed within a month, however this is very weather dependent, so we will be making regular updates as the work progresses.</p>
 
 

@@ -21,7 +21,7 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="projects">
 
-			<a href="projects.php"><img src="pictures/Projects.jpg" alt="A picture of a playground in a park."></a>
+			<a href="projects.php"><img src="pictures/projects.jpg" alt="A picture of a playground in a park."></a>
 			<div class="descprojectsandevents">
 				<h2> Projects </h2>
 			</div>
@@ -29,7 +29,7 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="events">
 
-			<a href="events.php"><img class="right-image" src="pictures/Events.jpg" alt="A picture of people having fun in a park."></a>
+			<a href="events.php"><img class="right-image" src="pictures/events.jpg" alt="A picture of people having fun in a park."></a>
 			<div class="descprojectsandevents">
 				<h2>Events</h2>
 			</div>
@@ -37,7 +37,7 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="gallery">
 
-			<a href="gallery.php"><img class="left-image" src="pictures/Gallery.jpg" alt="A picture of a park landscape in autumn."></a>
+			<a href="gallery.php"><img class="left-image" src="pictures/gallery.jpg" alt="A picture of a park landscape in autumn."></a>
 			<div class="descprojectsandevents">
 				<h2>Gallery</h2>
 			</div>
@@ -45,7 +45,7 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="calendar">
 
-			<a href="calendar.php"><img class="right-image" src="pictures/Calendar.jpg" alt="A picture of a mug and a diary on a wooden desk."></a>
+			<a href="calendar.php"><img class="right-image" src="pictures/calendar.jpg" alt="A picture of a mug and a diary on a wooden desk."></a>
 			<div class="descprojectsandevents">
 				<h2>Calendar</h2>
 			</div>
