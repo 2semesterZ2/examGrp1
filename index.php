@@ -17,7 +17,7 @@
 	<article>
 		<h1>Welcome to the Botanical Park</h1>
 
-		<p id="welcometext">A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>
+		<p class="welcometext">A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>
 
 		<!--Relevant today box-->
 		<h2>See what is happening in the park</h2>

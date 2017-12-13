@@ -30,7 +30,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 }
-#welcometext {
+.welcometext {
     margin: 1% 5% 0 5%;
 }
 /* align the slideshow in the centre of the page*/
@@ -54,4 +54,39 @@ p {
     width: 50%;
     float: left;
 	margin-top: 2%;
+}
+
+.boxesprojectsandevents {
+  width: 44%;
+  float: left;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.boxesprojectsandevents {
+  width: 44%;
+  float: left;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.boxesprojectsandevents img {
+  width: 100%;
+
+}
+.boxesprojectsandevents img:hover {
+  opacity: 0.5;
+}
+
+
+.boxesprojectsandevents h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
