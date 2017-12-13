@@ -29,10 +29,10 @@ h2 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-}
+	}
 /*home page styling starts here*/
 .welcometext {
-    margin: 1% 5% 0 5%;
+    margin: 1% 5% 1% 5%;
 }
 /* align the slideshow in the centre of the page*/
 #projectsandeventsbox {
@@ -92,6 +92,59 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 	}
+/*projects sub-page styling starts here*/
+/*centering and scaling all the images*/
+#playgroundbox {
+    text-align: center;
+}
+#playgroundbox img {
+    max-width: 50%;
+}
+#rosesbox {
+    text-align: center;
+}
+#rosesbox img {
+    max-width: 50%;
+}
+#parkingbox {
+    text-align: center;
+}
+#parkingbox img {
+    max-width: 50%;
+}
+/*styling the contact form starts here*/
+#suggestionform{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+#suggestionform input {
+	font-family: 'Open Sans', sans-serif;
+}
+input[type=text] {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	height: 25px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+input[type=email] {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	height: 25px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+textarea {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-left: 1%;
+	font-family: 'Open Sans', sans-serif;
+	}
+input[type=file]{
+	margin: 1% 0;
+}
 /*visitor information landing page styling starts here*/
 /*position the images in the centre, equally spaced*/
 .boxesvisitorinfo {
