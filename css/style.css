@@ -92,3 +92,33 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 	}
+/*visitor information landing page styling starts here*/
+/*position the images in the centre, equally spaced*/
+.boxesvisitorinfo {
+    width: 44%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+		}
+#location {
+    margin: 2% 2% 2% 4%;
+}
+#history {
+    margin: 2% 4% 2% 2%;
+}
+.boxesvisitorinfo img {
+    width: 100%;
+	
+}
+/*add opaque overlay on hover*/
+.boxesvisitorinfo img:hover {
+    opacity: 0.5;
+}
+/*overlay and align the text to centre it on each image, code from W3Schools: https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.boxesvisitorinfo h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
