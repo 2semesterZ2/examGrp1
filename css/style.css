@@ -17,7 +17,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     margin-top: 1%;
-	margin-bottom: 1%;
+    margin-bottom: 1%;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -27,10 +27,15 @@ h2 {
     margin-top: 4%;
     margin-bottom: 1%;
 }
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-	}
+}
 /*home page styling starts here*/
 .welcometext {
     margin: 1% 5% 1% 5%;
@@ -65,7 +70,7 @@ p {
     position: relative;
     text-align: center;
     color: #ffffff;
-		}
+}
 #projects {
     margin: 2% 2% 1% 4%;
 }
@@ -80,7 +85,6 @@ p {
 }
 .boxesprojectsandevents img {
     width: 100%;
-	
 }
 /*add opaque overlay on hover*/
 .boxesprojectsandevents img:hover {
@@ -92,7 +96,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-	}
+}
 /*projects sub-page styling starts here*/
 /*centering and scaling all the images*/
 #playgroundbox {
@@ -114,37 +118,37 @@ p {
     max-width: 50%;
 }
 /*styling the contact form starts here*/
-#suggestionform{
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+#suggestionform {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 #suggestionform input {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 input[type=text] {
-	background-color: #f9f9f9;
-	border-radius: 5px;
-	height: 25px;
-	margin-top: 1%;
-	margin-bottom: 1%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 input[type=email] {
-	background-color: #f9f9f9;
-	border-radius: 5px;
-	height: 25px;
-	margin-top: 1%;
-	margin-bottom: 1%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 textarea {
-	background-color: #f9f9f9;
-	border-radius: 5px;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	padding-left: 1%;
-	font-family: 'Open Sans', sans-serif;
-	}
-input[type=file]{
-	margin: 1% 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type=file] {
+    margin: 1% 0;
 }
 /*events sub-page styling starts here*/
 /*centering and scaling all the images*/
@@ -172,8 +176,8 @@ input[type=file]{
 #hostingbox img {
     max-width: 50%;
 }
-#hosting{
-	margin: 3% 0 1% 0;
+#hosting {
+    margin: 3% 0 1% 0;
 }
 /*visitor information landing page styling starts here*/
 /*position the images in the centre, equally spaced*/
@@ -183,7 +187,7 @@ input[type=file]{
     position: relative;
     text-align: center;
     color: #ffffff;
-		}
+}
 #location {
     margin: 2% 2% 2% 4%;
 }
@@ -192,7 +196,6 @@ input[type=file]{
 }
 .boxesvisitorinfo img {
     width: 100%;
-	
 }
 /*add opaque overlay on hover*/
 .boxesvisitorinfo img:hover {
@@ -204,4 +207,20 @@ input[type=file]{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-	}
+}
+/* FAQs styling starts here*/
+#faqs h3 {
+    margin: 1% 5% 1% 5%;
+}
+#faqs p {
+    margin: 1% 5% 2% 5%;
+}
+#faqs a {
+    color: #AEBF87;
+    text-decoration: none;
+    }
+#faqs a:hover {
+    color: #747f5a;
+    text-decoration: underline;
+	font-weight: bolder;
+}
