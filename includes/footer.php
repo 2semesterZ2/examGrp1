@@ -10,11 +10,13 @@
 		</div>
 <div class="contactInformation">
 		<h3>Contact</h3>
+	<div id="contactlist">
 		<li>Aarhus Kommune</li>
 		<li>Address: Hack Kampmanns Plads 2</li>
 		<li>8000 Aarhus C</li>
 		<br/>
 		<li>&#128222 : 89 40 44 00</li>
+	</div>
 	</div>
 	<div class="links">
 		<!--link to social media-->
