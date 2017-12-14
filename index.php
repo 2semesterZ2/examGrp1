@@ -45,8 +45,7 @@
 		<!--Maintenance box-->
 		<div id="maintenancebox">
 			<h2>Today's Maintenance</h2>
-			<p>There is no maintenance being carried out today :)<br/> We are mowing the lawns
-				<!--insert area description from 10am-->.<br/> The ponds are being cleaned over the next week, starting on [insert date].<br/> A sick tree is being removed from [insert area description] today.</p>
+			<p> The ponds are being cleaned over the next week, starting on 21th December 2017.</p>
 			<!--Maintenance log link -->
 
 		</div>

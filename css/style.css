@@ -47,9 +47,10 @@ p {
 }
 /*position the weather and maintenance side-by-side*/
 #weatherbox {
-    width: 50%;
+    width: 45%;
     float: left;
     margin-top: 2%;
+	padding-right: 5%;
 }
 #iframe {
     text-align: center;
