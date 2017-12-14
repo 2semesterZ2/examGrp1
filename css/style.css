@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5dc;
+}
+article {
+    width: 1200px;
+    background-color: #ffffff;
+    margin: auto;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+/*home page styling starts here*/
+.welcometext {
+    margin: 1% 5% 1% 5%;
+}
+/* align the slideshow in the centre of the page*/
+#projectsandeventsbox {
+    text-align: center;
+}
+#projectsandeventsbox img {
+    max-width: 50%;
+}
+/*position the weather and maintenance side-by-side*/
+#weatherbox {
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+}
+#iframe {
+    text-align: center;
+    padding-top: 1%;
+}
+#maintenancebox {
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+}
+/*projects and events landing page styling starts here*/
+/*position the images in the centre, equally spaced*/
+.boxesprojectsandevents {
+    width: 44%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+#projects {
+    margin: 2% 2% 1% 4%;
+}
+#gallery {
+    margin: 1% 2% 2% 4%;
+}
+#events {
+    margin: 2% 4% 1% 2%;
+}
+#calendar {
+    margin: 1% 4% 2% 2%;
+}
+.boxesprojectsandevents img {
+    width: 100%;
+}
+/*add opaque overlay on hover*/
+.boxesprojectsandevents img:hover {
+    opacity: 0.5;
+}
+/*overlay and align the text to centre it on each image, code from W3Schools: https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.boxesprojectsandevents h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*projects sub-page styling starts here*/
+/*centering and scaling all the images*/
+#playgroundbox {
+    text-align: center;
+}
+#playgroundbox img {
+    max-width: 50%;
+}
+#rosesbox {
+    text-align: center;
+}
+#rosesbox img {
+    max-width: 50%;
+}
+#parkingbox {
+    text-align: center;
+}
+#parkingbox img {
+    max-width: 50%;
+}
+/*styling the contact form starts here*/
+#suggestionform {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#suggestionform input {
+    font-family: 'Open Sans', sans-serif;
+}
+input[type=text] {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+input[type=email] {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+textarea {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type=file] {
+    margin: 1% 0;
+}
+/*events sub-page styling starts here*/
+/*centering and scaling all the images*/
+#zulubox {
+    text-align: center;
+}
+#zulubox img {
+    max-width: 50%;
+}
+#stellabox {
+    text-align: center;
+}
+#stellabox img {
+    max-width: 50%;
+}
+#soapbox {
+    text-align: center;
+}
+#soapbox img {
+    max-width: 50%;
+}
+#hostingbox {
+    text-align: center;
+}
+#hostingbox img {
+    max-width: 50%;
+}
+#hosting {
+    margin: 3% 0 1% 0;
+}
+/*visitor information landing page styling starts here*/
+/*position the images in the centre, equally spaced*/
+.boxesvisitorinfo {
+    width: 44%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+#location {
+    margin: 2% 2% 2% 4%;
+}
+#history {
+    margin: 2% 4% 2% 2%;
+}
+.boxesvisitorinfo img {
+    width: 100%;
+}
+/*add opaque overlay on hover*/
+.boxesvisitorinfo img:hover {
+    opacity: 0.5;
+}
+/*overlay and align the text to centre it on each image, code from W3Schools: https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.boxesvisitorinfo h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* FAQs styling starts here*/
+#faqs h3 {
+    margin: 1% 5% 1% 5%;
+}
+#faqs p {
+    margin: 1% 5% 2% 5%;
+}
+#faqs a {
+    color: #AEBF87;
+    text-decoration: none;
+    }
+#faqs a:hover {
+    color: #747f5a;
+    text-decoration: underline;
+	font-weight: bolder;
+}

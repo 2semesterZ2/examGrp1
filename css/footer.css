@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    clear: both;
+	background-color: #3A402E;
+	overflow: hidden;
+	text-align: center;
+}
+
+footer h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #ffffff;
+	margin-bottom: 1%;
+}
+li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+a:hover {
+    color: #A9A9A9;
+}
+div.logo-copyright {
+    width: 33%;
+    float:left;
+	margin: 2% 0 1% 0;
+}
+img.footerLogo {
+    width: 40%;
+}
+#contactlist li{
+	text-align: left;
+	margin-left: 38%;
+}
+div.contactInformation {
+     width: 34%;
+    float:left;
+	margin-top: 1%;
+	}
+
+div.links {
+     width: 33%;
+    float:left;
+	margin-top: 1%;
+}
