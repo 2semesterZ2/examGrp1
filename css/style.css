@@ -228,6 +228,7 @@ input[type=file] {
 div.oldGallery {
 	float: right;
 	width: 40%;
+	padding: 0 0 3% 5%;
 }
 div.largePicture img {
     width: 50%;
@@ -259,3 +260,27 @@ div.historyTextLeft {
 /*ideParagraph {
 	float: left;
 }*/
+div.maps {
+    float: left;
+    width: 55%;
+    padding: 9% 0 0 0;
+}
+div.newMap img {
+	width: 48%;
+	float: left;
+}
+div.oldMap img {
+    width: 40%;
+    float: left;
+    padding: 0 0 0 2%;
+}
+div.textRight {
+    width: 40%;
+    float: left;
+    padding: 0 0 0 5%;
+}
+div.textLeft {
+	float: left;
+	width: 50%;
+}
+
