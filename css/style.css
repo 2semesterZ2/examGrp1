@@ -6,9 +6,8 @@ body {
     background-color: #f5f5dc;
 }
 article {
-    width: 1200px;
+    margin: 0 5% 0 5%;
     background-color: #ffffff;
-    margin: auto;
     overflow: hidden;
 }
 h1 {

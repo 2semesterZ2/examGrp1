@@ -38,7 +38,7 @@ include( "includes/head.php" );
 			<span class="error">* <?php echo $errMessage;?></span>
 			<br/> Attach a picture:
 			<br/>
-			<input type="file" name="fileToUpload" id="fileToUpload"/>
+			<input type="file" name="fileToUpload" id="fileToUpload"/>im
 			<br/>
 			<input type="submit" value="Upload Image" name="submit">
 			<input type="reset" value="Reset"/>
