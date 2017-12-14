@@ -254,12 +254,14 @@ div.smallPictures img {
 #picture4 {
 	margin: 0 0 0 3%;
 }
+
 div.historyTextLeft {
 	clear: left;
 }
 /*ideParagraph {
 	float: left;
 }*/
+<<<<<<< HEAD
 div.maps {
     float: left;
     width: 55%;
@@ -284,3 +286,37 @@ div.textLeft {
 	width: 50%;
 }
 
+=======
+
+
+/*Location subpage */
+#mapGoogle {
+    padding: 0 25% 0 25%;
+}
+
+.leftInformation {
+    width: 50%;
+    float: left;
+}
+
+.rightMap {
+    float: right;
+    width: 50%;
+}
+
+#rightMapId {
+    width: 65%;
+    height: 65%;
+    padding: 0 15% 0 30%;
+}
+
+.greyRow {
+    background-color: beige;
+}
+
+/*Under Contruction Page*/
+#underConstructionImg {
+    padding: 0 10% 0 10%;
+    width: 80%;
+}
+>>>>>>> 57b7a3af00d04739efcb0fd09950f6fa52218dc3
