@@ -253,3 +253,9 @@ div.smallPictures img {
 #picture4 {
 	margin: 0 0 0 3%;
 }
+div.historyTextLeft {
+	clear: left;
+}
+/*ideParagraph {
+	float: left;
+}*/
