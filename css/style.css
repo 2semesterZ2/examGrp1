@@ -253,3 +253,28 @@ div.smallPictures img {
 #picture4 {
 	margin: 0 0 0 3%;
 }
+
+/*Location subpage */
+#mapGoogle {
+    padding: 0 25% 0 25%;
+}
+
+.leftInformation {
+    width: 50%;
+    float: left;
+}
+
+.rightMap {
+    float: right;
+    width: 50%;
+}
+
+#rightMapId {
+    width: 65%;
+    height: 65%;
+    padding: 0 15% 0 30%;
+}
+
+.greyRow {
+    background-color: beige;
+}
