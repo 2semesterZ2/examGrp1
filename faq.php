@@ -10,8 +10,11 @@ include( "includes/head.php" );
 	<?php include("includes/header.php"); ?>
 	<!--Navigation:-->
 	<?php include("includes/navigation.php"); ?>
+    <!-- Extra CSS: -->
+    <link rel="stylesheet" type="text/css" href="css/faq.css">
 
 	<!--Content here-->
+
 	<article id="faqs">
 		<h1>Frequently Askes Questions</h1>
 
@@ -128,6 +131,8 @@ include( "includes/head.php" );
 		</div>
 
 	</article>
+    
+    <script src="javascript/faq.js"></script>
 	<!--Footer:-->
 	<?php include("includes/footer.php"); ?>
 </body>
