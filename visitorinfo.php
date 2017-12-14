@@ -20,20 +20,19 @@ include( "includes/head.php" );
 
 		<div class="boxesvisitorinfo" id="location">
 			<a href="location.php"><img src="pictures/location.jpg" alt="A picture of a map showing an aerial view of the Botanical Park."></a>
-			<div class="descvisitorinfo">
+			<div>
 				<h2>Location</h2>
 			</div>
 		</div>
 
 		<div class="boxesvisitorinfo" id="history">
 			<a href="history.php"><img src="pictures/history.jpg" alt="A black and white picture of people in the park in the summer from the past."></a>
-			<div class="descvisitorinfo">
+			<div>
 				<h2>History</h2>
 			</div>
 		</div>
 
 		<!--In CSS div.boxesprjectsandevents img {} -->
-		<!--In CSS div.descprojectsandevents {} -->
 
 	</article>
 	<!--Footer:-->

@@ -1,10 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Botanical Park</title>
-		<!--CSS here-->
-	</head>
+<?php include( "includes/head.php" ); ?>
 
 	<body>
 		<!--Header:-->
@@ -19,3 +13,5 @@
 	</body>
 
 </html>
+
+
