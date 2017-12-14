@@ -149,6 +149,21 @@ textarea {
 input[type=file] {
     margin: 1% 0;
 }
+#contactTable {
+    width: 54%;
+    margin: 3% 2% 0 0;
+}
+th, td {
+	padding: 2%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.contactForm {
+	width: 45%;
+	float: left;
+}
 /*events sub-page styling starts here*/
 /*centering and scaling all the images*/
 #zulubox {
@@ -262,6 +277,8 @@ div.historyTextLeft {
 /*ideParagraph {
 	float: left;
 }*/
+
+/*History subpage*/
 
 div.maps {
     float: left;

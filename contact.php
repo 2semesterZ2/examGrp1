@@ -17,10 +17,14 @@ include("includes/head.php"); ?>
 			<h1>Contact us</h1>
 
 			<h2>Have a question?</h2>
+			<p>We’re always happy to hear from you, and depending on the nature of your enquiry, there are a number of different ways to reach us. For a quick answer to questions related to the Botanical Park, make sure you check out our Frequently Asked Questions, otherwise keep reading to see how to get in touch.
+
+			</p>
 			<p>Check out our <a href="faq.php">Frequently Asked Questions</a> (or use the search box at the top of the site).</p>
 
 			<h2>Send us a message by filling out this form: </h2>
             
+            <div class="contactForm">
             <form action="mailto:kraftsa60869@th-nuernberg.de" id="contactForm" onsubmit="sendEMail()" enctype="text/plain"> 
                 Your name: <br/>
                 <input type="text" name="name" id="name"/>
@@ -45,11 +49,33 @@ include("includes/head.php"); ?>
                 <input type="submit" value="Submit" />
                 <input type="reset" value="Reset"/>
             </form>
+            </div>
                         
             <script src="javascript/contactMail.js"></script>
+            <!--Contact Table-->
+			<table id="contactTable">
+			  <tr class="greyRow">
+				<th>Need to reach the Kommune?</th>
+				<th>Thinking of hosting an event?</th> 
+			  </tr>
+			  <tr>
+				<td>Call: 89 40 44 00</td>
+				<td>You can get more information on how to book your event through the Brug Aarhus website.</td>
 
+			  </tr>
+			  <tr class="greyRow">
+				<th>Spotted something that needs fixing?</th>
+				<th>Want to receive the latest news?</th>
+			  </tr>
+			  <tr>
+				<td>You can download the <a href="http://www.aarhus.dk/borgertip">BorgerTip App</a> to report any damage or lack of maintenance within the Kommune.
+						Available on <a href="https://itunes.apple.com/dk/app/skyhost-borger-tip/id1124427859?l=da&mt=8">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.skyhost.citizentip">Android</td>
+				<td>You can subscribe to our newsletter to be informed about events, maintenance and changes. It is sent out monthly and only contains information relevant to the Botanical Park.</td>
 
-			<h2>Need to reach the Kommune?</h2>
+			  </tr>
+			</table>
+
+			<!--Need to reach the Kommune?</h2>
             <p>Call: 89 40 44 00</p>
 
 			<h2>Spotted something that needs fixing?</h2>
@@ -62,8 +88,9 @@ include("includes/head.php"); ?>
 
 			<h2>Want to receive the latest news?</h2>
 			<p>You can subscribe to our newsletter to be informed about events, maintenance and changes. It is sent out monthly and only contains information relevant to the Botanical Park.
-			<!--SUBSCRIBE button here-->
 			</p>
+			<!--SUBSCRIBE button here-->
+			
 
 			<!--Include the option SUBSCRIBE for a Newsletter + SoMe-->
 
