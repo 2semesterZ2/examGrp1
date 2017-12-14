@@ -13,11 +13,13 @@ include("includes/head.php"); ?>
 		<!--Content here-->
 		<article>
 		<h1>Park's Location</h1>
+            
 		<div id="mapGoogle">
-
 			<!--Google map of the Botanical Park-->
-			<iframe>
-			</iframe>
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com" id="googelMaps" onload="setFlag()"></iframe>
+        </div>
+        <script src="javascript/locationMap.js"></script>    
+            
 		<!--Adress of the place-->
 		<div id="adress"></div>
 
