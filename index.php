@@ -32,13 +32,16 @@
 		<div id="weatherbox">
 			<h2>Today's Weather</h2>
 			<!--Insert daily weather here-->
-			<!--Daily weather from meteoblue.com -->
-			<!--https://www.meteoblue.com/en/weather/forecast/week/aarhus_denmark_2624652?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget
- -        -->
-			<div id="iframe">
-				<iframe src="https://www.meteoblue.com/en/weather/widget/three/aarhus_denmark_2624652?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 460px;height: 597px"></iframe>
-			</div>
+			<!--Daily weather from accuweather.com -->
+			<!--https://www.accuweather.com/en/dk/aarhus/124594/weather-forecast/124594-->
+			<a href="https://www.accuweather.com/en/dk/aarhus/124594/weather-forecast/124594" class="aw-widget-legal">
+			<!--
+			By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+			-->
+			</a><div id="awcc1513243202913" class="aw-widget-current"  data-locationkey="124594" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1513243202913"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+					</div>
 		</div>
+		
 		<!--Maintenance box-->
 		<div id="maintenancebox">
 			<h2>Today's Maintenance</h2>
