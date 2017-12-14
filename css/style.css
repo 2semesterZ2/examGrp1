@@ -222,3 +222,34 @@ input[type=file] {
     text-decoration: underline;
 	font-weight: bolder;
 }
+
+/*History subpage*/
+/*large picture*/
+div.oldGallery {
+	float: right;
+	width: 40%;
+}
+div.largePicture img {
+    width: 50%;
+	width: 100%;
+}
+
+/*small pictures*/
+div.smallPictures {
+    /*margin: 5px;*/
+    float: left;
+    width: 30%;
+}
+div.smallPictures img {
+	width: 100%;
+	height: auto;
+}
+#picture2 {
+	margin: 0 3% 0 0;
+}
+#picture3 {
+	margin: 0 2% 0 2%;
+}
+#picture4 {
+	margin: 0 0 0 3%;
+}
