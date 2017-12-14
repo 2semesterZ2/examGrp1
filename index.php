@@ -14,7 +14,7 @@
 	<?php include("includes/navigation.php"); ?>
 
 	<!--Content here-->
-	<article class="centerText">
+	<article>
 		<h1>Welcome to the Botanical Park</h1>
 
 		<p>A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>

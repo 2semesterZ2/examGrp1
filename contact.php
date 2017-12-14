@@ -13,7 +13,7 @@ include("includes/head.php"); ?>
 		<?php include("includes/navigation.php"); ?>
 
 		<!--Content here-->
-		<article class="centerText">
+		<article>
 			<h1>Contact us</h1>
 
 			<h2>Have a question?</h2>
