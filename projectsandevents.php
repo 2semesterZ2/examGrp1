@@ -13,7 +13,7 @@ include( "includes/head.php" );
 
 	<!--Content here-->
 
-	<article class="centerText">
+	<article>
 		<h1>Projects and Events</h1>
 		<p class="welcometext">Here you will find information about all the upcoming projects and events in the Botanical Park. For more detailed information please click on one of the images below.</p>
 

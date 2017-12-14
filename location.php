@@ -11,7 +11,7 @@ include("includes/head.php"); ?>
 		<?php include("includes/navigation.php"); ?>
 
 		<!--Content here-->
-		<article class="centerText">
+		<article>
 		<h1>Park's Location</h1>
 		<div id="mapGoogle">
 
