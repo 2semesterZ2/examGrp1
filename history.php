@@ -12,7 +12,7 @@ $keywords="botanical, park, aarhus, green, nature, denmark, city center, trees, 
 
 		<!--Content here-->
 		<!--Short history section-->
-		<article>
+		<article class="centerText">
 		<h1>Short history of the Botanical Garden</h1>
 		<p>The Botanical Garden was established as an experimental green area for fruit trees and other useful plants in 1873. By 1875 the area grew to 4.5 hectares, and was part of the ‘Møllehavnen Toft’. This was just east of Hasleforten, where a newly established plant company the ‘Haveselskab’ constructed a nursery and expanded the area. The Haveselskab was later renamed to the ‘Jydske Haveselskab’.</p>
 

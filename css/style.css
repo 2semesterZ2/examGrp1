@@ -36,8 +36,8 @@ p {
     font-size: 1em;
 }
 /*home page styling starts here*/
-.welcometext {
-    margin: 1% 5% 1% 5%;
+.centerText {
+    padding: 1% 5% 1% 5%;
 }
 /* align the slideshow in the centre of the page*/
 #projectsandeventsbox {

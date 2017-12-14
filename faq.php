@@ -12,7 +12,7 @@ include( "includes/head.php" );
 	<?php include("includes/navigation.php"); ?>
 
 	<!--Content here-->
-	<article id="faqs">
+	<article class="centerText" id="faqs">
 		<h1>Frequently Askes Questions</h1>
 
 		<h2>General questions:</h2>

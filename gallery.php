@@ -11,7 +11,7 @@ include("includes/head.php"); ?>
 		<?php include("includes/navigation.php"); ?>
 
 		<!--Content here-->
-		<article>
+		<article class="centerText">
 			<h1>Happy headline</h1>
 			<p>Share your masterpieces with us</p>
 
