@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.exam.sun-dan.de/</loc>
+      <lastmod>2017-12-14</lastmod>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.exam.sun-dan.de/projectsandevents.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+
+   <url>
+      <loc>http://www.exam.sun-dan.de/projects.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+
+   <url>
+      <loc>http://www.exam.sun-dan.de/events.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+
+   <url>
+      <loc>http://www.exam.sun-dan.de/visitorinfo.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+    
+    <url>
+      <loc>http://www.exam.sun-dan.de/location.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+    
+    <url>
+      <loc>http://www.exam.sun-dan.de/history.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+    
+    <url>
+      <loc>http://www.exam.sun-dan.de/faq.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+    
+    <url>
+      <loc>http://www.exam.sun-dan.de/contact.php</loc>
+      <lastmod>2017-12-14</lastmod>
+   </url>
+
+</urlset>
