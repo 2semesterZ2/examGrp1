@@ -253,6 +253,7 @@ div.smallPictures img {
 #picture4 {
 	margin: 0 0 0 3%;
 }
+<<<<<<< HEAD
 
 /*Location subpage */
 #mapGoogle {
@@ -278,3 +279,11 @@ div.smallPictures img {
 .greyRow {
     background-color: beige;
 }
+=======
+div.historyTextLeft {
+	clear: left;
+}
+/*ideParagraph {
+	float: left;
+}*/
+>>>>>>> a42edef5b007a635d510672806324f4876cca1e3
