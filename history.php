@@ -67,7 +67,7 @@ $keywords="botanical, park, aarhus, green, nature, denmark, city center, trees, 
 		<!--Gallery containing the old pictures here?-->
 		<div class="textRight">
 		<p>Now the land of the Botanical Garden contains 3 main areas:
-		<i><a href="http://www.dengamleby.dk/">Den Gamle By</a></i>, which takes up 5 hectares of the Garden and is one of the top tourist attractions in Aarhus, <i>The Greenhouses</i>, operated by the <a href="http://sciencemuseerne.dk/en/botanical-garden/">Science Museum</a>, and <i>the Botanical Park</i>, which is looked after by <a href="http://www.aarhus.dk/da/borger/natur-og-miljoe/park-og-skov/parker/botanisk-have.aspx">Aarhus Kommune</a>, and the <a href="https://www.facebook.com/groups/botaniskhavesvenner/about/">Friends of the Botanical Garden</a>.</p>
+		<i><a href="http://www.dengamleby.dk/">Den Gamle By</a></i>, which takes up 5 hectares of the Garden and is one of the top tourist attractions in Aarhus, <i>The Greenhouses</i>, operated by the <a href="http://sciencemuseerne.dk/en/botanical-garden/">Science Museum</a>, and <i>the Botanical Park</i>, which is looked after by <a href="https://www.aarhus.dk/">Aarhus Kommune</a>, and the <a href="https://www.facebook.com/groups/botaniskhavesvenner/about/">Friends of the Botanical Garden</a>.</p>
 		</div>
 
 		</article>
