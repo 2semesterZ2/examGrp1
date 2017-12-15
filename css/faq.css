@@ -1,3 +1,5 @@
+/* Based on the Accordion example from w3schools (https://www.w3schools.com/howto/howto_js_accordion.asp) with apllied changes */
+
 .question {
     background-color: #eee;
     color: #444;
@@ -6,7 +8,6 @@
     border: none;
     text-align: left;
     outline: none;
-    transition: 0.4s;
 }
 
 .active, .question:hover {

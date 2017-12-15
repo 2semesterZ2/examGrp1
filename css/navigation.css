@@ -1,4 +1,8 @@
 /* Navigation bar */
+button {
+    cursor: pointer;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #747f5a;
@@ -21,6 +25,10 @@
     float: left;
     overflow: hidden;
 
+}
+
+.dropbtn {
+  cursor: pointer;  
 }
 
 .dropdown .dropbtn {
