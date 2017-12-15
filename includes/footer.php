@@ -23,7 +23,6 @@
 		<a href="https://www.facebook.com/AarhusKommune/">Facebook</a>
 		<!--link to our blog-->
 <li><a href="faq.php">FAQ</a></li>
-<li><a href="blog.php">Blog</a></li>
 	</div>
 	</div>
 

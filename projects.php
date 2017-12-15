@@ -15,6 +15,7 @@ include( "includes/head.php" );
 	<article>
 
 		<h1>Upcoming Projects in the Botanical Park</h1>
+		<p class="welcometext">Here you will find information about all the upcoming projects that will be happening soon in the Botanical Park. For more detailed information please see the individual project descriptions below.</p>
 		<h2>New Playground in the Botanical Park</h2>
 			<div id="playgroundbox"><img src="pictures/projectplayground.jpg" alt="A photo of a playground in a park"></div>
 		<p class="welcometext">
