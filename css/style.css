@@ -37,6 +37,14 @@ p {
     font-size: 1em;
 	padding-top: 1%;
 }
+td {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+th {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
 /*home page styling starts here*/
 
 /* align the slideshow in the centre of the page*/
