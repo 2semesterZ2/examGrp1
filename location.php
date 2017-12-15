@@ -78,17 +78,20 @@ include( "includes/head.php" );
 					<td>3A, 4A, 11, 43, 44</td>
 				</tr>
 			</table>
-
+			<!--Distance of other landmarks-->
+			<div class="distanceOfLandmarks">
 			<h2>Distance from other local landmarks</h2>
 			<p>
 				ARoS = 1km (15min walk)<br> Domkirke = 1.4km (20 min walk)<br> Dokk1 = 2km (30 min walk)<br> Magasin = 1.2km (16 min walk)
 			</p>
-
+           	</div>
+           <!--Toilets-->
+            <div class="toilets">
 			<h2>Toilets</h2>
 			<p>
 				There are public toilets available at the Greenhouses. These are open 9.00am – 4.00pm on weekdays and 10.00am – 5.00pm on weekends and public holidays.
 			</p>
-
+			</div>
 		</div>
 
 	</article>
