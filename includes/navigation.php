@@ -29,7 +29,7 @@
         </div>
         <a href="faq.php">FAQ</a>
         <a href="contact.php">Contact</a>
-        <a href="blog.php">Blog</a>
+       <!-- <a href="blog.php">Blog</a> --> <!-- Not finished, will be added later again when it is acutally working -->
     </div>
 
     <!-- EventListener for the buttons to redirect to the overall pages -->

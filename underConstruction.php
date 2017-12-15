@@ -7,11 +7,9 @@
 		<?php include("includes/navigation.php"); ?>
  
         <article>
-        <img src="pictures/stillGrowing.jpg" alt="A picture of a small plant in a pot." id="underConstructionImg"/>
-
+            <img src="pictures/stillGrowing.jpg" alt="A picture of a small plant in a pot." id="underConstructionImg"/>
         </article>
         
-		
 		<!--Footer:-->
 		<?php include("includes/footer.php"); ?>
 	</body>
