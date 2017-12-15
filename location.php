@@ -14,7 +14,7 @@ include( "includes/head.php" );
 	<!--Content here-->
 	<article>
 		<h1>Park's Location</h1>
-		<p>The Botanical Park is one of the largest parks in Aarhus, located near the city centre. It is part of the Botanical Gardens, which also contain the Greenhouses and are bordered by Den Gamle By. The park is open all day every day and is free to enter. It is a place where you can surround yourself with green lawns, a variety of interesting trees from its days as a botanical garden, as well as a small stream, with the entire area spanning 21.5 hectares. The perfect place for a walk or jog, as well as picnics and barbecues in the warmer months. Dog walkers are also welcome, although dogs must be kept on leads at all times. Cycling is also only allowed along Peter Holms Vej at the top of the park.</p>
+		<p>The Botanical Park is one of the largest parks in Aarhus, located near the city centre. It is part of the Botanical Gardens, which also contain the Greenhouses and are bordered by Den Gamle By. The park is open all day, every day and is free to enter. It is a place where you can surround yourself with green lawns, a variety of interesting trees from its days as a botanical garden, as well as a small stream, with the entire area spanning 21.5 hectares. The perfect place for a walk or jog, as well as picnics and barbecues in the warmer months. Dog walkers are also welcome, although dogs must be kept on leads at all times. Cycling is also only allowed along Peter Holms Vej at the top of the park.</p>
 		<div id="mapGoogle">
 			<!--Google map of the Botanical Park-->
 			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com" id="googelMaps" onload="setFlag()"></iframe>
@@ -31,7 +31,7 @@ include( "includes/head.php" );
 
 			<div class="leftInformation">
 				<h3>On foot</h3>
-				<p>There are many entrances to the Botanical Park – 17 in total. To find the most convenient one for you, please refer to the location map.</p>
+				<p>There are many entrances to the Botanical Park – 17 in total. To find the most convenient one for you, please refer to the location map to the right.</p>
 				<br/>
 				<h3>By bicycle</h3>
 				<p>There are bicycle racks at the south entrance to the park on Vesterbrogade, where you can park your bicycle. If you’re just cycling through, this is allowed along Peter Holms Vej at the top of the park.</p>

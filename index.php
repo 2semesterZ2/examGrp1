@@ -20,7 +20,7 @@
 		<p>A place where community and nature come together in the heart of Aarhus. From its roots as a Botanical Garden, come and enjoy the variety of trees and plants in this green haven, with friends, family or simply to get some fresh air.</p>
 
 		<!--Relevant today box-->
-		<h2>See what is happening in the park</h2>
+		<h2>See what's happening in the park</h2>
 		<div id="projectsandeventsbox">
 			<!--Projects and Events slideshow here-->
 			<img src="pictures/projectplayground.jpg" alt="Picture of a playground in a park">
@@ -45,7 +45,7 @@
 		<!--Maintenance box-->
 		<div id="maintenancebox">
 			<h2>Today's Maintenance</h2>
-			<p> The ponds are being cleaned over the next week, starting on 21th December 2017.</p>
+			<p> The ponds are being cleaned over the next week, starting on 21st December 2017.</p>
 			<!--Maintenance log link -->
 
 		</div>
