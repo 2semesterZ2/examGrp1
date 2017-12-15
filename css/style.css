@@ -44,7 +44,9 @@ td {
 th {
 	font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+	padding-right: 4%;
 }
+
 /*home page styling starts here*/
 
 /* align the slideshow in the centre of the page*/
