@@ -1,6 +1,6 @@
 <?php
 $title= "The Botanical Park | Contact";
-$description="Different way of reaching or contacting the The Botanical Park.";
+$description="The different ways of reaching or contacting the The Botanical Park.";
 $keywords="botanical, park, aarhus, green, nature, denmark, city center, email, telephone, borgertip, newsletter ";
 include("includes/head.php"); ?>
 
@@ -14,13 +14,10 @@ include("includes/head.php"); ?>
 
 		<!--Content here-->
 		<article>
-			<h1>Contact us</h1>
+			<h1>Contact Us</h1>
 
 			<h2>Have a question?</h2>
-			<p>We’re always happy to hear from you, and depending on the nature of your enquiry, there are a number of different ways to reach us. For a quick answer to questions related to the Botanical Park, make sure you check out our Frequently Asked Questions, otherwise keep reading to see how to get in touch.
-
-			</p>
-			<p>Check out our <a href="faq.php">Frequently Asked Questions</a> (or use the search box at the top of the site).</p>
+			<p>We’re always happy to hear from you, and depending on the nature of your enquiry, there are a number of different ways to reach us. For a quick answer to questions related to the Botanical Park, make sure you check out our <a href="faq.php">Frequently Asked Questions</a>, otherwise keep reading to see how to get in touch.</p>
 
 			<h2>Send us a message by filling out this form: </h2>
             
@@ -29,19 +26,19 @@ include("includes/head.php"); ?>
                 Your name: <br/>
                 <input type="text" name="name" id="name"/>
                 <br/>
-                Email: <br/>
+                Your email: <br/>
                 <input type="email" name="email" id="senderEMail"/>
                 <br/>
-                Reason for contacting us: <br/>
+                Your reason for contacting us: <br/>
                 <select name="reasonForContact" id="rsnCntct">
                     <option value="genEnquiry">General Enquiry</option>
                     <option value="prblmPath">Problem with the paths</option>
                     <option value="prblmPlant">Problem with trees/ the vegetation</option>
-                    <option value="rprtRepair">Report somthing that needs repairing</option>
+                    <option value="rprtRepair">Report with something that needs repairing</option>
                     <option value="rptrWebsite">Report an issue with the website</option>
                     <option value="project">Enquiry about a project</option>
                     <option value="event">Enquiry about an event</option>
-                    <option value="other">Other reason</option>
+                    <option value="other">Any other reason</option>
                 </select>
                 <br/>
                 <textarea name="message" rows="10" cols="30" id="msgContact">Please enter your message here.</textarea>
@@ -60,7 +57,7 @@ include("includes/head.php"); ?>
 			  </tr>
 			  <tr>
 				<td>Call: 89 40 44 00</td>
-				<td>You can get more information on how to book your event through the Brug Aarhus website.</td>
+				<td>You can get more information on how to book your event through the Brug Aarhus <a href="http://brugaarhus.dk/"></a>website.</td>
 
 			  </tr>
 			  <tr class="greyRow">

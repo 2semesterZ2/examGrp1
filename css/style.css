@@ -37,6 +37,15 @@ p {
     font-size: 1em;
 	padding-top: 1%;
 }
+a {
+    color: #AEBF87;
+    text-decoration: none;
+    }
+a:hover {
+    color: #747f5a;
+    text-decoration: underline;
+	font-weight: bolder;
+}
 td {
 	font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -128,11 +137,11 @@ th {
     max-width: 50%;
 }
 /*styling the contact form starts here*/
-#suggestionform {
+#contactForm {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-#suggestionform input {
+#contactForm input {
     font-family: 'Open Sans', sans-serif;
 }
 input[type=text] {
@@ -239,15 +248,6 @@ div.contactForm {
 }
 #faqs p {
     margin: 1% 5% 2% 5%;
-}
-#faqs a {
-    color: #AEBF87;
-    text-decoration: none;
-    }
-#faqs a:hover {
-    color: #747f5a;
-    text-decoration: underline;
-	font-weight: bolder;
 }
 
 /*History subpage*/
