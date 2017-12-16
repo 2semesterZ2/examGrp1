@@ -137,11 +137,11 @@ th {
     max-width: 50%;
 }
 /*styling the contact form starts here*/
-#contactForm {
+#suggestionform {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-#contactForm input {
+#suggestionform input {
     font-family: 'Open Sans', sans-serif;
 }
 input[type=text] {
@@ -169,6 +169,16 @@ textarea {
 input[type=file] {
     margin: 1% 0;
 }
+
+/*styling the contact page starts here*/
+
+.contactForm {
+    font-family: 'Open Sans', sans-serif;
+}
+.contactForm input {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #contactTable {
     width: 54%;
     margin: 3% 2% 0 0;
