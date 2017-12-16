@@ -49,11 +49,15 @@ a:hover {
 td {
 	font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    border: none;
+    outline: none;
 }
 th {
 	font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 	padding-right: 4%;
+    border: none;
+    outline: none;
 }
 
 /*home page styling starts here*/
@@ -137,11 +141,11 @@ th {
     max-width: 50%;
 }
 /*styling the contact form starts here*/
-#contactForm {
+#suggestionform {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-#contactForm input {
+#suggestionform input {
     font-family: 'Open Sans', sans-serif;
 }
 input[type=text] {
@@ -169,6 +173,16 @@ textarea {
 input[type=file] {
     margin: 1% 0;
 }
+
+/*styling the contact page starts here*/
+
+.contactForm {
+    font-family: 'Open Sans', sans-serif;
+}
+.contactForm input {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #contactTable {
     width: 54%;
     margin: 3% 2% 0 0;
@@ -176,14 +190,28 @@ input[type=file] {
 th, td {
 	padding: 2%;
 }
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+
 div.contactForm {
 	width: 45%;
 	float: left;
 }
+
+#name {
+    max-width: 90%;
+}
+
+#senderEMail {
+    max-width: 90%;
+}
+
+#rsnCntct {
+    max-width: 90%;
+}
+
+#msgContact {
+    max-width: 90%;
+}
+
 /*events sub-page styling starts here*/
 /*centering and scaling all the images*/
 #zulubox {

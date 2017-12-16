@@ -22,30 +22,30 @@ include("includes/head.php"); ?>
 			<h2>Send us a message by filling out this form: </h2>
             
             <div class="contactForm">
-            <form action="mailto:kraftsa60869@th-nuernberg.de" id="contactForm" onsubmit="sendEMail()" enctype="text/plain"> 
-                Your name: <br/>
-                <input type="text" name="name" id="name"/>
-                <br/>
-                Your email: <br/>
-                <input type="email" name="email" id="senderEMail"/>
-                <br/>
-                Your reason for contacting us: <br/>
-                <select name="reasonForContact" id="rsnCntct">
-                    <option value="genEnquiry">General Enquiry</option>
-                    <option value="prblmPath">Problem with the paths</option>
-                    <option value="prblmPlant">Problem with trees/ the vegetation</option>
-                    <option value="rprtRepair">Report with something that needs repairing</option>
-                    <option value="rptrWebsite">Report an issue with the website</option>
-                    <option value="project">Enquiry about a project</option>
-                    <option value="event">Enquiry about an event</option>
-                    <option value="other">Any other reason</option>
-                </select>
-                <br/>
-                <textarea name="message" rows="10" cols="30" id="msgContact">Please enter your message here.</textarea>
-                <br/>
-                <input type="submit" value="Submit" />
-                <input type="reset" value="Reset"/>
-            </form>
+                <form action="mailto:kraftsa60869@th-nuernberg.de" id="contactForm" onsubmit="sendEMail()" enctype="text/plain"> 
+                    Your name: <br/>
+                    <input type="text" name="name" id="name" size=60/>
+                    <br/>
+                    Your email: <br/>
+                    <input type="email" name="email" id="senderEMail" size=60/>
+                    <br/>
+                    Your reason for contacting us: <br/>
+                    <select name="reasonForContact" id="rsnCntct">
+                        <option value="genEnquiry">General Enquiry</option>
+                        <option value="prblmPath">Problem with the paths</option>
+                        <option value="prblmPlant">Problem with trees/ the vegetation</option>
+                        <option value="rprtRepair">Report with something that needs repairing</option>
+                        <option value="rptrWebsite">Report an issue with the website</option>
+                        <option value="project">Enquiry about a project</option>
+                        <option value="event">Enquiry about an event</option>
+                        <option value="other">Any other reason</option>
+                    </select>
+                    <br/>
+                    <textarea name="message" rows="10" cols="60" id="msgContact">Please enter your message here.</textarea>
+                    <br/>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset"/>
+                </form>
             </div>
                         
             <script src="javascript/contactMail.js"></script>
