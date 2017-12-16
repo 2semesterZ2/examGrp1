@@ -15,6 +15,7 @@ include( "includes/head.php" );
 	<article>
 
 		<h1>Upcoming Projects in the Botanical Park</h1>
+		<p class="welcometext">Here you will find information about all the upcoming projects that will be happening soon in the Botanical Park. For more detailed information please see the individual project descriptions below.</p>
 		<h2>New Playground in the Botanical Park</h2>
 			<div id="playgroundbox"><img src="pictures/projectplayground.jpg" alt="A photo of a playground in a park"></div>
 		<p class="welcometext">
@@ -45,17 +46,17 @@ include( "includes/head.php" );
 		</form>
 </div>
 
-		<h2>Two new rose species arriving</h2>
+		<h2>Two New Rose Species Arriving</h2>
 		<div id="rosesbox"><img src="pictures/roses.jpg" alt="A close-up photo of pink roses in a park."></div>
-		<p class="welcometext">Insert picture here The Friends of the Botanical Garden are re-organising the rose beds to include two new species of roses. Due to growing interest in their work, and an increase in the number of group members, they are now able to expand the rose collection. Work will begin on this project early next month, and we can’t wait to see the results. To see more about the work that the Friends of the Botanical Garden do for the park, visit their official Facebook page.</p>
+		<p class="welcometext">The Friends of the Botanical Garden are re-organising the rose beds to include two new species of roses. Due to growing interest in their work, and an increase in the number of group members, they are now able to expand the rose collection. Work will begin on this project early next month, and we can’t wait to see the results. To see more about the work that the Friends of the Botanical Garden do for the park, visit their <a href="https://www.facebook.com/groups/botaniskhavesvenner/about/">official Facebook page</a>.</p>
 
 
-		<h2>Parking lot resurfacing</h2>
+		<h2>Parking Lot Resurfacing</h2>
 		<div id="parkingbox"><img src="pictures/car-park-resurfacing.jpg" alt="A photograph of an excavator digging at a construction site"></div>
-		<p class="welcometext">Insert picture here The main car park on Peter Holms Vej is in need of resurfacing, which will begin in two weeks’ time. In order to minimise the inconvenience during this time, the Kommune has secured free overflow parking in some of the surrounding roads. For a full list of where you can park, please see this map. The project should be completed within a month, however this is very weather dependent, so we will be making regular updates as the work progresses.</p>
+		<p class="welcometext">The main car park on Peter Holms Vej is in need of resurfacing, which will begin in two weeks’ time. In order to minimise the inconvenience during this time, the Kommune has secured free overflow parking in some of the surrounding roads. A full list of where you can park will be released within the next couple of days. The project should be completed within a month, however this is very weather dependent, so we will be making regular updates as the work progresses.</p>
 
 
-		<p class="welcometext">To get involved or for more information about any of these projects, feel free to contact us.</p>
+		<p class="welcometext">To get involved or for more information about any of these projects, feel free to <a href="contact.php">contact</a> us.</p>
 
 	</article>
 	<!--Footer:-->

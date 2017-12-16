@@ -6,9 +6,9 @@ body {
     background-color: #f5f5dc;
 }
 article {
-    width: 1200px;
+    margin: 0 5% 0 5%;
+	padding: 1% 5% 1% 5%;
     background-color: #ffffff;
-    margin: auto;
     overflow: hidden;
 }
 h1 {
@@ -35,11 +35,29 @@ h3 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+	padding-top: 1%;
 }
+a {
+    color: #AEBF87;
+    text-decoration: none;
+    }
+a:hover {
+    color: #747f5a;
+    text-decoration: underline;
+	font-weight: bolder;
+}
+td {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+th {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+	padding-right: 4%;
+}
+
 /*home page styling starts here*/
-.welcometext {
-    margin: 1% 5% 1% 5%;
-}
+
 /* align the slideshow in the centre of the page*/
 #projectsandeventsbox {
     text-align: center;
@@ -49,9 +67,10 @@ p {
 }
 /*position the weather and maintenance side-by-side*/
 #weatherbox {
-    width: 50%;
+    width: 45%;
     float: left;
     margin-top: 2%;
+	padding-right: 5%;
 }
 #iframe {
     text-align: center;
@@ -118,11 +137,11 @@ p {
     max-width: 50%;
 }
 /*styling the contact form starts here*/
-#suggestionform {
+#contactForm {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-#suggestionform input {
+#contactForm input {
     font-family: 'Open Sans', sans-serif;
 }
 input[type=text] {
@@ -149,6 +168,21 @@ textarea {
 }
 input[type=file] {
     margin: 1% 0;
+}
+#contactTable {
+    width: 54%;
+    margin: 3% 2% 0 0;
+}
+th, td {
+	padding: 2%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+div.contactForm {
+	width: 45%;
+	float: left;
 }
 /*events sub-page styling starts here*/
 /*centering and scaling all the images*/
@@ -215,12 +249,111 @@ input[type=file] {
 #faqs p {
     margin: 1% 5% 2% 5%;
 }
-#faqs a {
-    color: #AEBF87;
-    text-decoration: none;
-    }
-#faqs a:hover {
-    color: #747f5a;
-    text-decoration: underline;
-	font-weight: bolder;
+
+/*History subpage*/
+/*large picture*/
+div.oldGallery {
+	float: right;
+	width: 40%;
+	padding: 0 0 3% 5%;
+}
+div.largePicture img {
+    width: 50%;
+	width: 100%;
+}
+
+/*small pictures*/
+div.smallPictures {
+    /*margin: 5px;*/
+    float: left;
+    width: 30%;
+}
+div.smallPictures img {
+	width: 100%;
+	height: auto;
+}
+#picture2 {
+	margin: 0 3% 0 0;
+}
+#picture3 {
+	margin: 0 2% 0 2%;
+}
+#picture4 {
+	margin: 0 0 0 3%;
+}
+
+div.historyTextLeft {
+	clear: left;
+}
+/*ideParagraph {
+	float: left;
+}*/
+
+/*History subpage*/
+
+div.maps {
+    float: left;
+    width: 50%;
+    padding: 9% 0 0 0;
+}
+div.newMap img {
+	width: 48%;
+	float: left;
+}
+div.oldMap img {
+    width: 40%;
+    float: left;
+    padding: 0 0 0 2%;
+}
+div.textRight {
+    width: 40%;
+    float: left;
+    padding: 0 0 0 10%;
+}
+div.textLeft {
+	float: left;
+	width: 50%;
+	padding: 0 0 0 0;
+}
+
+
+
+
+/*Location subpage */
+#mapGoogle {
+    padding: 0 25% 0 25%;
+}
+
+.leftInformation {
+    width: 50%;
+    float: left;
+}
+
+.rightMap {
+    float: right;
+    width: 50%;
+}
+
+#rightMapId {
+    width: 65%;
+    height: 65%;
+    padding: 0 15% 0 30%;
+}
+
+.greyRow {
+    background-color: beige;
+}
+div.distanceOfLandmarks {
+	width: 48%;
+	float: left;
+}
+div.toilets {
+	width: 48%;
+	float: left;
+	padding-left: 4%;
+}
+/*Under Contruction Page*/
+#underConstructionImg {
+    padding: 0 10% 0 10%;
+    width: 80%;
 }

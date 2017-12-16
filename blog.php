@@ -10,6 +10,16 @@ include("includes/head.php"); ?>
 		<!--Navigation:-->
 		<?php include("includes/navigation.php"); ?>
 
+        
+        
+        <!-- As long as we have Lorem Ipsum here, we will redirect the user to an under construction site -->
+        <script>
+            window.location.replace("underconstruction.php");
+        </script>
+        
+        
+        
+        
 		<!--Content here-->
 		<article>
 			<h1>Blog title</h1>
