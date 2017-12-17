@@ -1,2 +1,2 @@
-# Work in Progress
-This branch contains our productive code, all the thins we work on. 
+# Copy Hand-In effective
+This branch contains the code how it was on the 17.12.2017. It, as well as the master branch, will stay the same until the exam. 
