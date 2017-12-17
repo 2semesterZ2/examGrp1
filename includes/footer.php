@@ -1,7 +1,6 @@
 <footer>
 	<link rel="stylesheet" href="css/footer.css" type="text/css">
     <div class="footer-content">
-        <p>Disclaimer: this website is a study project created by students of the BAAA, and is not an official page of the Aarhus Kommune or the Botanical Garden, nor the Botanical Park. </p>
         <br/>
         <div class="logo-copyright">
             <img src="pictures/kommune-logo.png" alt="Aarhus Kommune's logo" class="footerLogo"/>
@@ -23,6 +22,10 @@
             <!--link to our blog-->
             <li><a href="faq.php">FAQ</a></li>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <p id="disclaimer">Disclaimer: this website is a study project created by students of the BAAA, and is not an official page of the Aarhus Kommune or the Botanical Garden, nor the Botanical Park. </p>
 	</div>
 
 </footer>

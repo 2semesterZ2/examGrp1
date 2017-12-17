@@ -53,3 +53,10 @@ div.links {
     float:left;
 	margin-top: 1%;
 }
+
+#disclaimer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-style: oblique;
+    color: #ffffff;
+}
