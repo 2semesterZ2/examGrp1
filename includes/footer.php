@@ -33,6 +33,8 @@
         <br/>
         <br/>
         <p id="disclaimer">Disclaimer: this website is a study project created by students of the BAAA, and is not an official page of the Aarhus Kommune or the Botanical Garden, nor the Botanical Park. </p>
+        <br/>
+        <br/>
 	</div>
 
 </footer>
