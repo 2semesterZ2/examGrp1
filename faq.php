@@ -44,7 +44,7 @@ include( "includes/head.php" );
 			</div>
 			<h3 class="question">How much space does the Botanical Park occupy?</h3>
 			<div class="answer">
-				<p>The Botanical Garden covers 21.5 hectares, including the 5 hectars Den Gamle By is placed on. If you want more information about the different park areas and what is where, please visit our <a href="visitorinfo.php">visitor information</a> page.</p>
+				<p>The Botanical Garden covers 21.5 hectares, including the 5 hectares Den Gamle By is placed on. If you want more information about the different park areas and what is where, please visit our <a href="visitorinfo.php">visitor information</a> page.</p>
 			</div>
 			<h3 class="question">What belongs to the Botanical Park?</h3>
 			<div class="answer">
