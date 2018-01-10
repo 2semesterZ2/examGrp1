@@ -4,17 +4,16 @@
 }
 footer {
     clear: both;
-	background-color: #3A402E;
-	overflow: hidden;
-	text-align: center;
+    background-color: #3A402E;
+    overflow: hidden;
+    text-align: center;
 }
-
 footer h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     color: #ffffff;
-	margin-bottom: 1%;
+    margin-bottom: 1%;
 }
 footer p {
     font-family: 'Open Sans', sans-serif;
@@ -29,33 +28,103 @@ footer a {
 a:hover {
     color: #A9A9A9;
 }
-div.logo-copyright {
-    width: 33%;
-    float:left;
-	margin: 2% 0 1% 0;
-}
-img.footerLogo {
-    width: 40%;
-}
-#contactlist li{
-	text-align: left;
-	margin-left: 38%;
-}
-div.contactInformation {
-     width: 34%;
-    float:left;
-	margin-top: 1%;
-	}
-
-div.links {
-     width: 33%;
-    float:left;
-	margin-top: 1%;
-}
-
 #disclaimer {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-style: oblique;
     color: #ffffff;
+}
+#last {
+	padding: 1%;
+}
+@media only screen and (min-width: 280px) {
+div.contactInformation {
+    width: 80%;
+    float: none;
+    margin: auto;
+}
+div.links {
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-top: 4%;
+}
+div.logo-copyright {
+    width: 60%;
+    float: none;
+    margin: auto;
+    margin-top: 4%;
+}
+img.footerLogo {
+    width: 100%;
+}
+footer h3 {
+    font-size: 1em;
+}
+footer p {
+    font-size: 0.8em;
+}
+#disclaimer {
+    font-size: 0.7em;
+    margin: 0 2%;
+}
+}
+
+@media only screen and (min-width: 400px) {
+div.contactInformation {
+    width: 50%;
+    float: left;
+}
+div.links {
+    width: 50%;
+    float: left;
+    margin-top: 0;
+}
+div.logo-copyright {
+    width: 50%;
+    float: left;
+}
+img.footerLogo {
+    width: 80%;
+}
+#disclaimer {
+	clear: both;
+  padding-top: 2%;
+}
+}
+@media only screen and (min-width: 700px) {
+footer h3 {
+    font-size: 1.5em;
+}
+footer p {
+    font-size: 1em;
+}
+div.logo-copyright {
+    width: 33%;
+    float: left;
+    margin-top: 1%;
+}
+img.footerLogo {
+    width: 60%;
+}
+#contactlist li {
+    text-align: left;
+    margin-left: 38%;
+}
+div.contactInformation {
+    width: 34%;
+    float: left;
+    margin-top: 1%;
+}
+div.links {
+    width: 33%;
+    float: left;
+    margin-top: 1%;
+}
+#disclaimer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    font-style: oblique;
+    color: #ffffff;
+}
 }
