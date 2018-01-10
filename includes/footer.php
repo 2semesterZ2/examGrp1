@@ -4,23 +4,23 @@
         <br/>
         <div class="logo-copyright">
             <img src="pictures/kommune-logo.png" alt="Aarhus Kommune's logo" class="footerLogo"/>
-            <li id="last"><small>&copy; Copyright Aarhus Kommune 2017</small> </li>
+            <p id="last"><small>&copy; Copyright Aarhus Kommune 2017</small> </p>
 		</div>
         <div class="contactInformation">
             <h3>Contact</h3>
             <div id="contactlist">
-                <li>Aarhus Kommune</li>
-                <li>Address: Hack Kampmanns Plads 2</li>
-                <li>8000 Aarhus C</li>
+                <p>Aarhus Kommune</p>
+                <p>Address: Hack Kampmanns Plads 2</p>
+                <p>8000 Aarhus C</p>
                 <br/>
-                <li>&#128222 : 89 40 44 00</li>
+                <p>&#128222 : 89 40 44 00</p>
 	       </div>
         </div>
         <div class="links">
             <!--link to social media-->
             <a href="https://www.facebook.com/AarhusKommune/">Facebook</a>
             <!--link to our blog-->
-            <li><a href="faq.php">FAQ</a></li>
+            <p><a href="faq.php">FAQ</a></p>
         </div>
         <br/>
         <br/>
