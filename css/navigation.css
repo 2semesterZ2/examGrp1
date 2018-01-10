@@ -2,14 +2,12 @@
 button {
     cursor: pointer;
 }
-
 .navbar {
     overflow: hidden;
     background-color: #747f5a;
     font-family: 'Open Sans', sans-serif;
-	    padding: 0 25% 0 25%;
-    }
-
+    padding: 0 25% 0 25%;
+}
 .navbar a {
     float: left;
     font-size: 1em;
@@ -17,37 +15,29 @@ button {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
-
+}
 /* Dropdown menu*/
 .dropdown {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     float: left;
     overflow: hidden;
-
 }
-
 .dropbtn {
-  cursor: pointer;  
+    cursor: pointer;
 }
-
 .dropdown .dropbtn {
-font-size: 1em;
-font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
 }
-
-
-
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #f9f9f9;
     color: #747F5A;
 }
-
 /* Options in the dropdown menu*/
 .dropdown-content {
     display: none;
@@ -57,7 +47,6 @@ font-family: 'Open Sans', sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     float: none;
     color: #747F5A;
@@ -66,12 +55,45 @@ font-family: 'Open Sans', sans-serif;
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {
     background-color: #AEBF87;
     color: #ffffff;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
+}
+/*styling for mobile navigation starts here*/
+nav#navigationIcon{
+	float: right;
+    width: 20%;
+    margin: 1%;
+}
+nav#navigationIcon img {
+	width: 100%;
+}
+nav#mobileNav {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+}
+nav#mobileNav li {
+    list-style: none;
+    padding: 0.8em;
+    border: solid 1px #ffffff;
+    width: 50%;
+    float: left;
+    background-color: #747f5a;
+}
+nav#mobileNav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav#mobileNav li a:hover {
+    font-weight: normal;
+}
+@media only screen and (min-width: 280px){
+	nav#desktopNav{
+		display: none;
+	}
 }

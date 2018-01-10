@@ -1,11 +1,10 @@
-<nav>
+<nav id="desktopNav">
     <!-- Code Example for Dropdown Menu from W3Schools https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
     <!-- Applied changes in CSS and added JavaScript Eventlisteners to the buttons-->
 
     <!-- Adding the small arrow for the DropDown-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- Styling and arranging of the navbar-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,500" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
 
     <!-- Links for the navigation in the wanted order and dropdown classes for the hover-menur -->
