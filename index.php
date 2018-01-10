@@ -29,19 +29,19 @@
 
 			<div class="mySlides fade">
 				<div class="numbertext">1 / 3</div>
-				<img src="pictures/projectplayground.jpg" alt="Picture of a playground in a park">
+				<a href="projects.php#prj1"><img src="pictures/projectplayground.jpg" alt="Picture of a playground in a park"></a>
 				<div class="text">New Playground in the Botanical Park</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">2 / 3</div>
-				<img src="pictures/roses.jpg" alt="A close-up photo of pink roses in a park." style="width:100%">
+                <a href="projects.php#prj2"><img src="pictures/roses.jpg" alt="A close-up photo of pink roses in a park." style="width:100%"></a>
 				<div class="text">Two New Rose Species Arriving</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">3 / 3</div>
-				<img src="pictures/car-park-resurfacing.jpg" alt="A photograph of an excavator digging at a construction site" style="width:100%">
+                <a href="projects.php#prj3"><img src="pictures/car-park-resurfacing.jpg" alt="A photograph of an excavator digging at a construction site" style="width:100%"></a>
 				<div class="text">Parking Lot Resurfacing</div>
 			</div>
 
