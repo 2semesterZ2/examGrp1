@@ -64,10 +64,11 @@ th {
 
 /* align the slideshow in the centre of the page*/
 #projectsandeventsbox {
-    text-align: center;
+/*    text-align: center; */
+    max-width: 50%;
 }
 #projectsandeventsbox img {
-    max-width: 50%;
+    max-width: 100%;
 }
 /*position the weather and maintenance side-by-side*/
 #weatherbox {
