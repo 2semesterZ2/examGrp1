@@ -10,25 +10,16 @@ include("includes/head.php"); ?>
 		<!--Navigation:-->
 		<?php include("includes/navigation.php"); ?>
 
-        
-        <!-- As long as we have Lorem Ipsum here, we will redirect the user to an under construction site -->
-        <script>
-            window.location.replace("underconstruction.php");
-        </script>
-        
-        
 		<!--Content here-->
 		<article>
 			<h1>Calendar</h1>
+            <p>Here you can see our actual and future projects and events dates as well as already known, huger maintenance days. 
+                To get more information about a certain event, please just click on it. If you want to safe the date, feel free to export it to your Google Calendar.
+            </p>
+            <br/>
+			<!--Google Calendar to show the dates, everybody can see it but only the persons with the rights can add or change something-->
+            <iframe id="cal" src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=opv2225agfn0jd4u3hr5jb0seg%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FCopenhagen" style="border-width:0" frameborder="0" scrolling="no"></iframe>
 
-			<!--Calendar will be placed here-->
-
-			<!--Information about the projects/events/maintenance will apear here after clicking on one of the dates of the month-->
-
-			<div class="boxSoMe">
-			<h3>Share it</h3>
-				<!--SoMe icons will be placed here-->
-			</div>
 		</article>
 		<!--Footer:-->
 		<?php include("includes/footer.php"); ?>

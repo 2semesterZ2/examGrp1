@@ -106,6 +106,10 @@ th {
 #calendar {
     margin: 1% 4% 2% 2%;
 }
+#cal {
+    width: 100%;
+    min-height: 600px;
+}
 .boxesprojectsandevents img {
     width: 100%;
 }
@@ -380,6 +384,7 @@ div.toilets {
 	float: left;
 	padding-left: 4%;
 }
+
 /*Under Contruction Page*/
 #underConstructionImg {
     padding: 0 10% 0 10%;
