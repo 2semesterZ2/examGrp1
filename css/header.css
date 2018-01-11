@@ -4,7 +4,7 @@ nav#desktopNav {
 }
 header {
     background-image: url(../pictures/banner-trees-logo.jpg);
-    height: 100px;
+    height: auto;
 }
 div#logo {
     float: left;
@@ -31,5 +31,6 @@ div#logo {
     background-image: url(../pictures/banner-trees-logo.jpg);
     background-size: 100%;
     padding-top: 16.22%;
+	clear: both;
 }
 }
