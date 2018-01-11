@@ -44,8 +44,13 @@ include( "includes/head.php" );
 				<br/>
 			</div>
 			<div class="rightMap">
-				<img src="pictures/botanical-park.jpg" alt="Map of the Botanical Park with its entrances." id="rightMapId"/>
-			</div>
+				<picture id="map-location">
+						<source media="(min-width: 768px)" srcset="pictures/botanical-park-large.jpg">
+						<source media="(min-width: 500px)" srcset="botanical-park-medium.jpg">
+						<source media="(min-width: 280px)" srcset="botanical-park-small.jpg">	
+					<img src="pictures/botanical-park.jpg" alt="Map of the Botanical Park with its entrances." id="rightMapId"/>
+					</picture>
+				</div>
 			<br/>
 			<br/>
 			<h3>By bus</h3>

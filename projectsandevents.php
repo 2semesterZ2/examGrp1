@@ -20,7 +20,14 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="projects">
 
-			<a href="projects.php"><img src="pictures/projects.jpg" alt="A picture of a playground in a park."></a>
+			<a href="projects.php">
+				<picture id="projects-menu">
+					<source media="(min-width: 768px)" srcset="pictures/playground-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/playground-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/playground-small.jpg">
+					<img src="pictures/playground-large.jpg" alt="Picture of a playground in a park">
+				</picture>
+			</a>
 			<div>
 				<h2> Projects </h2>
 			</div>
@@ -28,7 +35,14 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="events">
 
-			<a href="events.php"><img class="right-image" src="pictures/events.jpg" alt="A picture of people having fun in a park."></a>
+			<a href="events.php">
+				<picture id="events-menu">
+					<source media="(min-width: 768px)" srcset="pictures/events-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/events-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/events-small.jpg">
+					<img class="right-image" src="pictures/events-large.jpg" alt="A picture of people having fun in a park.">
+				</picture>
+			</a>
 			<div>
 				<h2>Events</h2>
 			</div>
@@ -36,7 +50,14 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="gallery">
 
-			<a href="gallery.php"><img class="left-image" src="pictures/gallery.jpg" alt="A picture of a park landscape in autumn."></a>
+			<a href="gallery.php">
+				<picture id="gallery-menu">
+					<source media="(min-width: 768px)" srcset="pictures/gallery-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/gallery-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/gallery-small.jpg">
+					<img class="left-image" src="pictures/gallery-large.jpg" alt="A picture of a park landscape in autumn.">
+				</picture>
+			</a>
 			<div>
 				<h2>Gallery</h2>
 			</div>
@@ -44,7 +65,14 @@ include( "includes/head.php" );
 
 		<div class="boxesprojectsandevents" id="calendar">
 
-			<a href="calendar.php"><img class="right-image" src="pictures/calendar.jpg" alt="A picture of a mug and a diary on a wooden desk."></a>
+			<a href="calendar.php">
+				<picture id="calendar-menu">
+					<source media="(min-width: 768px)" srcset="pictures/calendar-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/calendar-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/calendar-small.jpg">
+					<img class="right-image" src="pictures/calendar-large.jpg" alt="A picture of a mug and a diary on a wooden desk.">
+				</picture>
+			</a>
 			<div>
 				<h2>Calendar</h2>
 			</div>

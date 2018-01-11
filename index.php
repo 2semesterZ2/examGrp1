@@ -32,7 +32,7 @@
 				<a href="projects.php#prj1"><picture id="projects-home">
 						<source media="(min-width: 768px)" srcset="pictures/playground-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/playground-medium.jpg">
-						<source media="(min-width: 320px)" srcset="pictures/playground-small.jpg">	
+						<source media="(min-width: 280px)" srcset="pictures/playground-small.jpg">	
 					<img src="pictures/playground-large.jpg" alt="Picture of a playground in a park">
 					</picture>
 				</a>
@@ -45,7 +45,7 @@
 					<picture id="roses-home">
 						<source media="(min-width: 768px)" srcset="pictures/roses-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/roses-medium.jpg">
-						<source media="(min-width: 320px)" srcset="pictures/roses-small.jpg">	
+						<source media="(min-width: 280px)" srcset="pictures/roses-small.jpg">	
 					<img src="pictures/roses-large.jpg" alt="A close-up photo of pink roses in a park." style="width:100%">
 					</picture>
 				</a>
@@ -58,7 +58,7 @@
 					<picture id="carpark-home">
 						<source media="(min-width: 768px)" srcset="pictures/carpark-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/carpark-medium.jpg">
-						<source media="(min-width: 320px)" srcset="pictures/carpark-small.jpg">	
+						<source media="(min-width: 280px)" srcset="pictures/carpark-small.jpg">	
 					<img src="pictures/carpark-large.jpg" alt="A photograph of an excavator digging at a construction site" style="width:100%">
 					</picture>
 				</a>

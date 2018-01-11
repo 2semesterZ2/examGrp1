@@ -19,14 +19,28 @@ include( "includes/head.php" );
 		<!--Two boxes with pictures and short description? or name on each of the pictures?-->
 
 		<div class="boxesvisitorinfo" id="location">
-			<a href="location.php"><img src="pictures/location.jpg" alt="A picture of a map showing an aerial view of the Botanical Park."></a>
+			<a href="location.php">
+				<picture id="location-menu">
+					<source media="(min-width: 768px)" srcset="pictures/location-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/location-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/location-small.jpg">
+					<img src="pictures/location-large.jpg" alt="A picture of a map showing an aerial view of the Botanical Park.">
+				</picture>
+			</a>
 			<div>
 				<h2>Location</h2>
 			</div>
 		</div>
 
 		<div class="boxesvisitorinfo" id="history">
-			<a href="history.php"><img src="pictures/history.jpg" alt="A black and white picture of people in the park in the summer from the past."></a>
+			<a href="history.php">
+				<picture id="history-menu">
+					<source media="(min-width: 768px)" srcset="pictures/history-large.jpg">
+					<source media="(min-width: 500px)" srcset="pictures/history-medium.jpg">
+					<source media="(min-width: 280px)" srcset="pictures/history-small.jpg">
+					<img src="pictures/history-large.jpg" alt="A black and white picture of people in the park in the summer from the past.">
+				</picture>
+			</a>
 			<div>
 				<h2>History</h2>
 			</div>
