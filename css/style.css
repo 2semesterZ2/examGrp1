@@ -391,3 +391,8 @@ div.toilets {
     padding: 0 10% 0 10%;
     width: 80%;
 }
+
+/*responsive stylng starts here*/
+@media only screen and (min-width: 700px) {
+	
+}

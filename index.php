@@ -29,19 +29,39 @@
 
 			<div class="mySlides fade">
 				<div class="numbertext">1 / 3</div>
-				<a href="projects.php#prj1"><img src="pictures/projectplayground.jpg" alt="Picture of a playground in a park"></a>
+				<a href="projects.php#prj1"><picture id="projects-home">
+						<source media="(min-width: 768px)" srcset="pictures/playground-large.jpg">
+						<source media="(min-width: 500px)" srcset="pictures/playground-medium.jpg">
+						<source media="(min-width: 320px)" srcset="pictures/playground-small.jpg">	
+					<img src="pictures/playground-large.jpg" alt="Picture of a playground in a park">
+					</picture>
+				</a>
 				<div class="text">New Playground in the Botanical Park</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">2 / 3</div>
-                <a href="projects.php#prj2"><img src="pictures/roses.jpg" alt="A close-up photo of pink roses in a park." style="width:100%"></a>
+                <a href="projects.php#prj2">
+					<picture id="roses-home">
+						<source media="(min-width: 768px)" srcset="pictures/roses-large.jpg">
+						<source media="(min-width: 500px)" srcset="pictures/roses-medium.jpg">
+						<source media="(min-width: 320px)" srcset="pictures/roses-small.jpg">	
+					<img src="pictures/roses-large.jpg" alt="A close-up photo of pink roses in a park." style="width:100%">
+					</picture>
+				</a>
 				<div class="text">Two New Rose Species Arriving</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">3 / 3</div>
-                <a href="projects.php#prj3"><img src="pictures/car-park-resurfacing.jpg" alt="A photograph of an excavator digging at a construction site" style="width:100%"></a>
+                <a href="projects.php#prj3">
+					<picture id="carpark-home">
+						<source media="(min-width: 768px)" srcset="pictures/carpark-large.jpg">
+						<source media="(min-width: 500px)" srcset="pictures/carpark-medium.jpg">
+						<source media="(min-width: 320px)" srcset="pictures/carpark-small.jpg">	
+					<img src="pictures/carpark-large.jpg" alt="A photograph of an excavator digging at a construction site" style="width:100%">
+					</picture>
+				</a>
 				<div class="text">Parking Lot Resurfacing</div>
 			</div>
 

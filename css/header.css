@@ -1,6 +1,35 @@
-#top-banner {
-  background-image: url(../pictures/banner-trees-logo.jpg);
-background-size: 100%;
-padding-top: 16.22%;}
+@media only screen and (min-width: 280px) {
+nav#desktopNav {
+    display: none;
+}
+header {
+    background-image: url(../pictures/banner-trees-logo.jpg);
+    height: 100px;
+}
+div#logo {
+    float: left;
+    width: 70%;
+    margin: 1%;
+}
+div#logo img {
+    width: 100%;
+}
+}
 
-.logo {float:left;}
+@media only screen and (min-width: 400px) {
+div#logo {
+    width: 50%;
+    margin: 2%;
+}
+}
+
+@media only screen and (min-width: 700px) {
+	div#logo {
+		display: none;
+	}
+#top-banner {
+    background-image: url(../pictures/banner-trees-logo.jpg);
+    background-size: 100%;
+    padding-top: 16.22%;
+}
+}

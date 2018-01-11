@@ -63,13 +63,13 @@ button {
     display: block;
 }
 /*styling for mobile navigation starts here*/
-nav#navigationIcon{
-	float: right;
+nav#navigationIcon {
+    float: right;
     width: 20%;
     margin: 1%;
 }
 nav#navigationIcon img {
-	width: 100%;
+    width: 100%;
 }
 nav#mobileNav {
     text-align: center;
@@ -92,8 +92,28 @@ nav#mobileNav li a {
 nav#mobileNav li a:hover {
     font-weight: normal;
 }
-@media only screen and (min-width: 280px){
-	nav#desktopNav{
-		display: none;
+
+@media only screen and (min-width: 280px) {
+nav#desktopNav {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 400px) {
+nav#navigationIcon {
+    width: 15%;
+    margin: 2%;
+}
+}
+
+@media only screen and (min-width: 700px) {
+nav#mobileNav {
+    display: none;
+}
+nav#navigationIcon {
+    display: none;
+}
+nav#desktopNav {
+		display:flex;
 	}
 }
