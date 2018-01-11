@@ -5,7 +5,7 @@
     width: 150px;
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
-    box-sizing: border-box;
+    overflow: hidden; 
 }
 /* Add a hover effect (blue shadow) */
 #jpg img:hover {
