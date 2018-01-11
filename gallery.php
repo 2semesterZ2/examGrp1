@@ -37,7 +37,6 @@ echo "<link rel='stylesheet' href='css/gallery.css' type='text/css'>"
             <div id="imgcontainer">
                 <section id="jpg"></section>
             </div>
-
             <br/>
             <br/>
             <script src="javascript/gallery.js"></script>

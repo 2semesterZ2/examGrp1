@@ -1,11 +1,19 @@
 /*Gallery*/
 #jpg img {
     padding: 5px;
-    height: auto;
-    max-height: 250px;
-    max-width: 250px;
-    width: 15%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    overflow: hidden; 
 }
+/* Add a hover effect (blue shadow) */
+#jpg img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 #nbr{
     display: none;
 }
+
+
