@@ -3,6 +3,7 @@ $title = "The Botanical Park | History";
 $description = "Short history of The Botanical Park  from the 19th to the 21st century.";
 $keywords = "botanical, park, aarhus, green, nature, denmark, city center, trees, history, den gamle by, science museum, greenhouses, volunteers";
 include( "includes/head.php" );
+echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
 ?>
 
 <body>
@@ -22,7 +23,9 @@ include( "includes/head.php" );
 			<br>
 			<!--Gallery of the pictures on the side-->
 			<div class="oldGallery">
-				<div class="largePicture" id="picture1">
+				
+                <div class="gallerySlides" style="display:block;">
+                    <div class="numbertext">1 / 4</div>
 					<picture id="concert-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-concert-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-concert-medium.jpg">
@@ -31,7 +34,8 @@ include( "includes/head.php" );
 					</picture>
 				</div>
 
-				<div class="smallPictures" id="picture2">
+				<div class="gallerySlides">
+                    <div class="numbertext">2 / 4</div>
 					<picture id="map-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-map-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-map-medium.jpg">
@@ -40,7 +44,8 @@ include( "includes/head.php" );
 					</picture>
 				</div>
 
-				<div class="smallPictures" id="picture3">
+				<div class="gallerySlides">
+                    <div class="numbertext">3 / 4</div>
 					<picture id="park-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-park-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-park-medium.jpg">
@@ -50,7 +55,8 @@ include( "includes/head.php" );
 
 				</div>
 
-				<div class="smallPictures" id="picture4">
+				<div class="gallerySlides">
+                    <div class="numbertext">4 / 4</div>
 					<picture id="lake-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-lake-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-lake-medium.jpg">
@@ -58,7 +64,32 @@ include( "includes/head.php" );
 						<img src="pictures/old-lake-large.jpg" alt="Old picture of the lake">
 					</picture>
 				</div>
+               
+                <a class="prev" onclick="plusGallerySlides(-1)">❮</a>
+                <a class="next" onclick="plusGallerySlides(1)">❯</a>
+                
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-concert-large.jpg" style="width:100%" onclick="currentGallerySlide(1)" alt="Old picture of the concert in the park">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-map-large.jpg" alt="Old picture of the map of the park" style="width:100%" onclick="currentGallerySlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-park-large.jpg" alt="Old picture of the park" style="width:100%" onclick="currentGallerySlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-lake-large.jpg" alt="Old picture of the lake" style="width:100%" onclick="currentGallerySlide(4)">
+                    </div>
+              </div>
+                
 			</div>
+     
+            <script src="javascript/slideshow.js"></script>
 
 			<!--Old map here-->
 			<!-- id="oldMap">

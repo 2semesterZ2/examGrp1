@@ -8,9 +8,9 @@ function showSlides(n) {
     //get the dots to work with them
     var dots = document.getElementsByClassName("dot");
     //If the given Slideindex is huger then the actual number of slides, it will change back to one
-    if (n > slides.length) {slideIndex = 1}    
+    if (n > slides.length) {slideIndex = 1;}    
     //If the given number is smaller then one the index will change to the highest possible number
-    if (n < 1) {slideIndex = slides.length}
+    if (n < 1) {slideIndex = slides.length;}
     //don't display the slides/hide the slides
       for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";  
@@ -44,4 +44,34 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
     clicked = true;
+}
+
+
+function showGallerySlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("gallerySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {gallerySlideIndex = 1;}
+  if (n < 1) {gallerySlideIndex = slides.length;}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[gallerySlideIndex-1].style.display = "block";
+  dots[gallerySlideIndex-1].className += " active";
+  captionText.innerHTML = dots[gallerySlideIndex-1].alt;
+}
+
+var gallerySlideIndex = 1;
+showGallerySlides(gallerySlideIndex);
+
+function plusGallerySlides(n) {
+  showGallerySlides(gallerySlideIndex += n);
+}
+
+function currentGallerySlide(n) {
+  showGallerySlides(gallerySlideIndex = n);
 }
