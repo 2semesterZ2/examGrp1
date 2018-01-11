@@ -2,7 +2,11 @@
 $title= "The Botanical Park | Gallery";
 $description="A gallery of photographs, showcasing the different sides of the The Botanical Park.";
 $keywords="botanical, park, aarhus, green, nature, denmark, city center, photos, photography, gallery, pictures, landscape ";
-include("includes/head.php"); ?>
+include("includes/head.php"); 
+
+echo ("<script src='http://code.jquery.com/jquery-1.7.1.min.js'></script>");
+echo "<link rel='stylesheet' href='css/gallery.css' type='text/css'>"
+?>
 
 	<body>
 		<!--Header:-->
@@ -30,7 +34,7 @@ include("includes/head.php"); ?>
 			<!--Gallery of uploaded images-->
             <?php include ("transferNbr.php"); ?>
 
-                <div id="imgcontainer">
+            <div id="imgcontainer">
                 <section id="jpg"></section>
             </div>
 

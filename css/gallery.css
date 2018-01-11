@@ -1,0 +1,11 @@
+/*Gallery*/
+#jpg img {
+    padding: 5px;
+    height: auto;
+    max-height: 250px;
+    max-width: 250px;
+    width: 15%;
+}
+#nbr{
+    display: none;
+}
