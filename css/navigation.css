@@ -5,14 +5,6 @@
 nav#desktopNav {
     display: none;
 }
-nav#navigationIcon {
-    float: right;
-    width: 20%;
-    margin: 1%;
-}
-nav#navigationIcon img {
-    width: 100%;
-}
 nav#mobileNav {
     text-align: center;
     font-size: 0.8em;
@@ -36,12 +28,6 @@ nav#mobileNav li a:hover {
 }
 }
 
-@media only screen and (min-width: 400px) {
-nav#navigationIcon {
-    width: 15%;
-    margin: 2%;
-}
-}
 
 @media only screen and (min-width: 700px) {
 nav#mobileNav {

@@ -134,7 +134,7 @@ include( "includes/head.php" );
     
     <script src="javascript/faq.js"></script>
 	<!--Footer:-->
-	<?php include("includes/footer.php"); ?>
+	<?php include("includes/footer.php"); include("includes/mobileNav.php"); ?>
 </body>
 
 </html>

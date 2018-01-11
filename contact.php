@@ -95,7 +95,7 @@ include("includes/head.php"); ?>
 
 
 		<!--Footer:-->
-		<?php include("includes/footer.php"); ?>
+		<?php include("includes/footer.php"); include("includes/mobileNav.php"); ?>
 	</body>
 
 </html>

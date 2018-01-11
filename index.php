@@ -8,9 +8,6 @@
 
 
 <body>
-	<nav id="navigationIcon">
-			<a href="#mobileNav"><img src="pictures/menu-icon.png" alt="Mobile menu burger icon"></a>
-		</nav>
 	<!--Header:-->
 	<?php include("includes/header.php"); ?>
 	<!--Navigation:-->

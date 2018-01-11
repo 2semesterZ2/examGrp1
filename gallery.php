@@ -44,7 +44,7 @@ echo "<link rel='stylesheet' href='css/gallery.css' type='text/css'>"
 		
         </article>
 		<!--Footer:-->
-		<?php include("includes/footer.php"); ?>
+		<?php include("includes/footer.php"); include("includes/mobileNav.php"); ?>
 	</body>
 
 </html>

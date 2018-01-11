@@ -102,7 +102,7 @@ include( "includes/head.php" );
 
 	</article>
 	<!--Footer:-->
-	<?php include("includes/footer.php"); ?>
+	<?php include("includes/footer.php"); include("includes/mobileNav.php"); ?>
 </body>
 
 </html>
