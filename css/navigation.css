@@ -10,7 +10,7 @@ nav#mobileNav {
     font-size: 0.8em;
     font-family: 'Open Sans', sans-serif;
 }
-nav#mobileNav li {
+.menu {
     list-style: none;
     padding: 0.8em;
     border: solid 1px #ffffff;
@@ -18,7 +18,7 @@ nav#mobileNav li {
     float: left;
     background-color: #747f5a;
 }
-nav#mobileNav li a {
+.menu a {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.2em;
@@ -27,7 +27,6 @@ nav#mobileNav li a:hover {
     font-weight: normal;
 }
 }
-
 
 @media only screen and (min-width: 700px) {
 nav#mobileNav {
