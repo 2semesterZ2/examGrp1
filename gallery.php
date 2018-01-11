@@ -14,7 +14,7 @@ include("includes/head.php"); ?>
         
         <!-- As long as we have Lorem Ipsum here, we will redirect the user to an under construction site -->
         <script>
-            window.location.replace("underconstruction.php");
+            //window.location.replace("underconstruction.php");
         </script>
         
         
@@ -22,48 +22,23 @@ include("includes/head.php"); ?>
         
 		<!--Content here-->
 		<article>
-			<h1>Happy headline</h1>
+			<h1>Gallery</h1>
 			<p>Share your masterpieces with us</p>
 
 			<!--Upload your images here-->
 
 			<!--Gallery of uploaded images-->
-			<div class="boxesgallery">First box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
+            <?php include ("transferNbr.php"); ?>
 
-			<div class="boxesgallery">Second box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
+                <div id="imgcontainer">
+                <section id="jpg"></section>
+            </div>
 
-			<div class="boxesgallery">Third box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
-
-			<div class="boxesgallery">Fourth box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
-
-			<div class="boxesgallery">Fifth box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
-
-			<div class="boxesgallery">Sixth box</div>
-			<!-- img src="" alt=""> -->
-			<div class="descgallery">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			</div>
-		</article>
+            <br/>
+            <br/>
+            <script src="javascript/gallery.js"></script>
+		
+        </article>
 		<!--Footer:-->
 		<?php include("includes/footer.php"); ?>
 	</body>
