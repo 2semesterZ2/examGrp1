@@ -25,7 +25,7 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
 			<div class="oldGallery">
 				
                 <div class="gallerySlides" style="display:block;">
-                    <div class="numbertext">1 / 4</div>
+                    <div class="numbertext">1 / 6</div>
 					<picture id="concert-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-concert-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-concert-medium.jpg">
@@ -35,7 +35,7 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
 				</div>
 
 				<div class="gallerySlides">
-                    <div class="numbertext">2 / 4</div>
+                    <div class="numbertext">2 / 6</div>
 					<picture id="map-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-map-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-map-medium.jpg">
@@ -45,7 +45,7 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
 				</div>
 
 				<div class="gallerySlides">
-                    <div class="numbertext">3 / 4</div>
+                    <div class="numbertext">3 / 6</div>
 					<picture id="park-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-park-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-park-medium.jpg">
@@ -56,12 +56,32 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
 				</div>
 
 				<div class="gallerySlides">
-                    <div class="numbertext">4 / 4</div>
+                    <div class="numbertext">4 / 6</div>
 					<picture id="lake-history">
 						<source media="(min-width: 768px)" srcset="pictures/old-lake-large.jpg">
 						<source media="(min-width: 500px)" srcset="pictures/old-lake-medium.jpg">
 						<source media="(min-width: 280px)" srcset="pictures/old-lake-small.jpg">
 						<img src="pictures/old-lake-large.jpg" alt="Old picture of the lake">
+					</picture>
+				</div>
+                
+                <div class="gallerySlides">
+                    <div class="numbertext">5 / 6</div>
+					<picture id="windmill-history">
+						<source media="(min-width: 768px)" srcset="pictures/old-windmill-large.jpg">
+						<source media="(min-width: 500px)" srcset="pictures/old-windmill-medium.jpg">
+						<source media="(min-width: 280px)" srcset="pictures/old-windmill-small.jpg">
+						<img src="pictures/old-windmill-large.jpg" alt="Old picture of the windmill">
+					</picture>
+				</div>
+                
+                <div class="gallerySlides">
+                    <div class="numbertext">6 / 6</div>
+					<picture id="water-history">
+						<source media="(min-width: 768px)" srcset="pictures/old-water-large.jpg">
+						<source media="(min-width: 500px)" srcset="pictures/old-water-medium.jpg">
+						<source media="(min-width: 280px)" srcset="pictures/old-water-small.jpg">
+						<img src="pictures/old-water-large.jpg" alt="Old picture of the lake">
 					</picture>
 				</div>
                
@@ -84,6 +104,12 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
                     </div>
                     <div class="column">
                         <img class="demo cursor" src="pictures/old-lake-large.jpg" alt="Old picture of the lake" style="width:100%" onclick="currentGallerySlide(4)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-windmill-large.jpg" alt="Old picture of the windmill" style="width:100%" onclick="currentGallerySlide(5)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="pictures/old-water-large.jpg" alt="Old picture of the lake" style="width:100%" onclick="currentGallerySlide(6)">
                     </div>
               </div>
                 
