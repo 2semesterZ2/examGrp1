@@ -66,7 +66,7 @@ include( "includes/head.php" );
 
 			<h3 class="clear">By bus</h3>
 			<!--Table with buses-->
-			<table class="clear">
+			<table class="clear" id="busTable">
 				<!--table rows-->
 				<tr>
 					<!--Table headings-->

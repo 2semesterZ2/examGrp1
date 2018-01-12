@@ -186,17 +186,6 @@ input[type=file] {
 .contactForm input {
     font-family: 'Open Sans', sans-serif;
 }
-#contactTable {
-    width: 54%;
-    margin: 3% 2% 0 0;
-}
-th, td {
-    padding: 2%;
-}
-div.contactForm {
-    width: 45%;
-    float: left;
-}
 #name {
     max-width: 90%;
 }
@@ -382,6 +371,17 @@ th, td {
 .toilets p {
     padding-left: 1.5em;
 }
+/*responsive styling of contact page*/
+#contactTable {
+    margin-top: 4%;
+}
+#contactTable th {
+    padding: 3% 5%;
+	color: #4d543d;
+}
+#contactTable td {
+    padding: 0 5%;
+}
 }
 
 @media only screen and (min-width: 500px) {
@@ -400,6 +400,7 @@ div.toilets {
 }
 
 @media only screen and (min-width: 850px) {
+/*responsive styling of location page*/
 h1 {
     font-size: 2em;
 }
@@ -434,15 +435,30 @@ div#mapGoogle {
     height: 65%;
     padding: 0 15% 0 30%;
 }
+/*responsive styling of contact page*/
+div.contactForm {
+    width: 45%;
+    float: left;
+}
+#contactTable {
+    width: 54%;
+    margin: 3% 2% 0 0;
+}
+th, td {
+    padding: 2%;
+}
 }
 
 @media only screen and (min-width: 1050px) {
+/*responsive styling of map on the location page*/
 div#mapGoogle {
     padding: 0 25%;
 }
 }
+
 @media only screen and (min-width: 1120px) {
-	.clear {
-		clear: none;
-		}
+/*responsive styling of table on the location page*/
+.clear {
+    clear: none;
+}
 }
