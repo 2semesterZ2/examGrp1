@@ -64,9 +64,9 @@ include( "includes/head.php" );
 				<br/>
 			</div>
 
-			<h3>By bus</h3>
+			<h3 class="clear">By bus</h3>
 			<!--Table with buses-->
-			<table>
+			<table class="clear">
 				<!--table rows-->
 				<tr>
 					<!--Table headings-->

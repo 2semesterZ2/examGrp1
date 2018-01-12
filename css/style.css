@@ -25,7 +25,7 @@ h2 {
     font-weight: 500;
     font-size: 1.4em;
     text-align: center;
-    margin: 4% 0;
+    margin: 4% 0 2%;
     color: #4d543d;
 }
 h3 {
@@ -347,7 +347,7 @@ div.textLeft {
 
 /*responsive styling starts here*/
 @media only screen and (min-width: 280px) {
-	/*responsive styling of location page*/
+/*responsive styling of location page*/
 div#desktopLocation {
     display: none;
 }
@@ -363,8 +363,14 @@ div.rightMap {
     text-align: center;
     margin-top: 4%;
 }
-picture#map-location {
+#map-location picture {
     width: 100%;
+}
+.greyRow {
+    background-color: beige;
+}
+th, td {
+    padding: 1%;
 }
 .distanceOfLandmarks li {
     list-style: none;
@@ -373,9 +379,45 @@ picture#map-location {
     padding: 1% 0;
     font-size: 0.9em;
 }
+.toilets p {
+    padding-left: 1.5em;
+}
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
+div.distanceOfLandmarks {
+    width: 48%;
+    float: left;
+}
+div.distanceOfLandmarks li {
+    text-indent: 0;
+}
+div.toilets {
+    width: 48%;
+    float: left;
+    padding-left: 4%;
+}
+}
+
+@media only screen and (min-width: 850px) {
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.2em;
+}
+div#mobileLocation {
+    display: none;
+}
+div#desktopLocation {
+    display: block;
+}
+.clear {
+    clear: both;
+}
 div#mapGoogle {
     padding: 0 10%;
 }
@@ -392,22 +434,15 @@ div#mapGoogle {
     height: 65%;
     padding: 0 15% 0 30%;
 }
-.greyRow {
-    background-color: beige;
-}
-div.distanceOfLandmarks {
-    width: 48%;
-    float: left;
-}
-div.toilets {
-    width: 48%;
-    float: left;
-    padding-left: 4%;
-}
 }
 
 @media only screen and (min-width: 1050px) {
 div#mapGoogle {
     padding: 0 25%;
 }
+}
+@media only screen and (min-width: 1120px) {
+	.clear {
+		clear: none;
+		}
 }
