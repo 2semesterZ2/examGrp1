@@ -313,7 +313,7 @@ div.textLeft {
 /*responsive styling starts here*/
 @media only screen and (min-width: 280px) {
 /*responsive styling of images on home, projects, and events page*/
-	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
+	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img, div.rightMap img {
     max-width: 95%;
 }
 /*responsive styling of location page*/
@@ -369,6 +369,9 @@ th, td {
 	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
     max-width: 80%;
 }
+div.rightMap img {
+    max-width: 60%;
+}
 /*responsive styling of location page*/
 div.distanceOfLandmarks {
     width: 48%;
@@ -420,11 +423,11 @@ div#mapGoogle {
     float: right;
     width: 50%;
 }
-#rightMapId {
-    width: 65%;
-    height: 65%;
-    padding: 0 15% 0 30%;
+div.rightMap img {
+    max-width: 80%;
+    padding: 0 10%;
 }
+	
 /*responsive styling of contact page*/
 div.contactForm {
     width: 45%;
