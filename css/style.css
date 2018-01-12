@@ -375,6 +375,9 @@ div.toilets {
 
 /*responsive stylng starts here*/
 @media only screen and (min-width: 280px) {
+	div#desktopLocation {
+		display: none;
+	}
 div#mapGoogle {
     text-align: center;
     padding: 0;
@@ -386,12 +389,12 @@ div#mapGoogle iframe {
 }
 
 @media only screen and (min-width: 700px) {
-#mapGoogle {
+div#mapGoogle {
     padding: 0 10%;
 }
 }
 @media only screen and (min-width: 1050px) {
-	#mapGoogle {
+div#mapGoogle {
     padding: 0 25%;
 }
 }
