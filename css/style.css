@@ -63,10 +63,6 @@ th {
 /*home page styling starts here*/
 
 /* align the slideshow in the centre of the page*/
-#projectsandeventsbox {
-    /*    text-align: center; */
-    max-width: 50%;
-}
 #projectsandeventsbox img {
     max-width: 100%;
 }
@@ -385,6 +381,11 @@ th, td {
 }
 
 @media only screen and (min-width: 500px) {
+/*responsive styling of home page*/
+#projectsandeventsbox {
+    max-width: 80%;
+}
+/*responsive styling of location page*/
 div.distanceOfLandmarks {
     width: 48%;
     float: left;
@@ -397,9 +398,14 @@ div.toilets {
     float: left;
     padding-left: 4%;
 }
+
 }
 
 @media only screen and (min-width: 850px) {
+/*responsive styling of home page*/	
+#projectsandeventsbox {
+    max-width: 60%;
+}
 /*responsive styling of location page*/
 h1 {
     font-size: 2em;
