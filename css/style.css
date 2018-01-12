@@ -14,7 +14,7 @@ article {
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -23,20 +23,19 @@ h1 {
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 1%;
+    margin: 4% 0;
     color: #4d543d;
 }
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     padding-top: 1%;
 }
 a {
@@ -339,8 +338,46 @@ div.textLeft {
     padding: 0 0 0 0;
 }
 /*Location subpage */
-#mapGoogle {
-    padding: 0 25% 0 25%;
+
+/*Under Contruction Page*/
+#underConstructionImg {
+    padding: 0 10% 0 10%;
+    width: 80%;
+}
+
+/*responsive styling starts here*/
+@media only screen and (min-width: 280px) {
+	/*responsive styling of location page*/
+div#desktopLocation {
+    display: none;
+}
+div#mapGoogle {
+    text-align: center;
+    padding: 0;
+}
+div#mapGoogle iframe {
+    border: 0;
+    width: 100%;
+}
+div.rightMap {
+    text-align: center;
+    margin-top: 4%;
+}
+picture#map-location {
+    width: 100%;
+}
+.distanceOfLandmarks li {
+    list-style: none;
+    text-indent: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1% 0;
+    font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width: 700px) {
+div#mapGoogle {
+    padding: 0 10%;
 }
 .leftInformation {
     width: 50%;
@@ -367,32 +404,8 @@ div.toilets {
     float: left;
     padding-left: 4%;
 }
-/*Under Contruction Page*/
-#underConstructionImg {
-    padding: 0 10% 0 10%;
-    width: 80%;
 }
 
-/*responsive stylng starts here*/
-@media only screen and (min-width: 280px) {
-	div#desktopLocation {
-		display: none;
-	}
-div#mapGoogle {
-    text-align: center;
-    padding: 0;
-}
-div#mapGoogle iframe {
-    border: 0;
-    width: 100%;
-}
-}
-
-@media only screen and (min-width: 700px) {
-div#mapGoogle {
-    padding: 0 10%;
-}
-}
 @media only screen and (min-width: 1050px) {
 div#mapGoogle {
     padding: 0 25%;
