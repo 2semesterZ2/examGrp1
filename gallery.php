@@ -27,7 +27,7 @@ echo "<link rel='stylesheet' href='css/gallery.css' type='text/css'>"
 		<!--Content here-->
 		<article>
 			<h1>Gallery</h1>
-			<p>Share your masterpieces with us</p>
+			<p>See what visitors of the Botanical Park have been up to, and come and share your own experiences with us.</p>
 
 			<!--Upload your images here-->
 

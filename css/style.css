@@ -7,7 +7,7 @@ body {
 }
 article {
     margin: 0 5% 0 5%;
-    padding: 1% 5% 1% 5%;
+    padding: 1% 5% 2% 5%;
     background-color: #ffffff;
     overflow: hidden;
 }
@@ -89,6 +89,8 @@ th {
     float: left;
     position: relative;
     text-align: center;
+}
+.boxesprojectsandevents h2 {
     color: #ffffff;
 }
 #projects {
@@ -132,7 +134,6 @@ th {
 #parkingbox {
     text-align: center;
 }
-
 /*styling the contact form starts here*/
 #suggestionform {
     text-align: center;
@@ -210,6 +211,8 @@ input[type=file] {
     float: left;
     position: relative;
     text-align: center;
+}
+.boxesvisitorinfo h2 {
     color: #ffffff;
 }
 #location {
@@ -239,71 +242,6 @@ input[type=file] {
 #faqs p {
     margin: 1% 5% 2% 5%;
 }
-/*History subpage*/
-/*large picture*/
-div.oldGallery {
-    float: right;
-    width: 40%;
-    padding: 0 0 3% 5%;
-}
-div.largePicture img {
-    width: 50%;
-    width: 100%;
-}
-/*small pictures*/
-div.smallPictures {
-    /*margin: 5px;*/
-    float: left;
-    width: 30%;
-}
-div.smallPictures img {
-    width: 100%;
-    height: auto;
-}
-#picture2 {
-    margin: 0 3% 0 0;
-}
-#picture3 {
-    margin: 0 2% 0 2%;
-}
-#picture4 {
-    margin: 0 0 0 3%;
-}
-div.historyTextLeft {
-    clear: left;
-}
-/*ideParagraph {
-	float: left;
-}*/
-
-/*History subpage*/
-
-div.maps {
-    float: left;
-    width: 50%;
-    padding: 9% 0 0 0;
-}
-div.newMap img {
-    width: 48%;
-    float: left;
-}
-div.oldMap img {
-    width: 40%;
-    float: left;
-    padding: 0 0 0 2%;
-}
-div.textRight {
-    width: 40%;
-    float: left;
-    padding: 0 0 0 10%;
-}
-div.textLeft {
-    float: left;
-    width: 50%;
-    padding: 0 0 0 0;
-}
-/*Location subpage */
-
 /*Under Contruction Page*/
 #underConstructionImg {
     padding: 0 10% 0 10%;
@@ -312,9 +250,22 @@ div.textLeft {
 
 /*responsive styling starts here*/
 @media only screen and (min-width: 280px) {
+#historyMobile {
+    text-align: center;
+    margin: 4% 0;
+}
 /*responsive styling of images on home, projects, and events page*/
-	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img, div.rightMap img {
+#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img, div.rightMap img, #historyMobile img, .newMap img, .oldMap img {
     max-width: 95%;
+}
+/*responsive styling of history page*/
+div.oldGallery {
+    width: 100%;
+    margin-bottom: 4%;
+}
+.newMap, .oldMap {
+    text-align: center;
+    margin: 5% 0;
 }
 /*responsive styling of location page*/
 div#desktopLocation {
@@ -357,7 +308,7 @@ th, td {
 }
 #contactTable th {
     padding: 3% 5%;
-	color: #4d543d;
+    color: #4d543d;
 }
 #contactTable td {
     padding: 0 5%;
@@ -366,11 +317,20 @@ th, td {
 
 @media only screen and (min-width: 500px) {
 /*responsive styling of images on home, projects, and events page*/
-	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
+#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img, #historyMobile img {
     max-width: 80%;
 }
 div.rightMap img {
     max-width: 60%;
+}
+/*responsive styling of history page*/
+div.oldGallery {
+    width: 80%;
+    margin-left: 10%;
+}
+.newMap, .oldMap {
+    width: 50%;
+    float: left;
 }
 /*responsive styling of location page*/
 div.distanceOfLandmarks {
@@ -385,15 +345,9 @@ div.toilets {
     float: left;
     padding-left: 4%;
 }
-
 }
 
 @media only screen and (min-width: 850px) {
-/*responsive styling of images on home, projects, and events page*/
-	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
-    max-width: 50%;
-}
-/*responsive styling of location page*/
 h1 {
     font-size: 2em;
 }
@@ -403,6 +357,39 @@ h2 {
 h3 {
     font-size: 1.2em;
 }
+p {
+    font-size: 1em;
+}
+/*responsive styling of images on home, projects, and events page*/
+#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
+    max-width: 50%;
+}
+/*responsive styling of history page*/
+#historyMobile {
+    display: none;
+}
+div.historyTextLeft {
+    clear: left;
+}
+div.textLeft {
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+}
+div.oldGallery {
+    float: right;
+    width: 50%;
+    padding: 0 0 3% 5%;
+    margin: 0;
+}
+.clearfix {
+    clear: both;
+}
+.newMap, .oldMap {
+    width: 40%;
+    margin: 5%;
+}
+/*responsive styling of location page*/
 div#mobileLocation {
     display: none;
 }
@@ -427,7 +414,9 @@ div.rightMap img {
     max-width: 80%;
     padding: 0 10%;
 }
-	
+div.distanceOfLandmarks li {
+    font-size: 1em;
+}
 /*responsive styling of contact page*/
 div.contactForm {
     width: 45%;
@@ -446,6 +435,17 @@ th, td {
 /*responsive styling of map on the location page*/
 div#mapGoogle {
     padding: 0 25%;
+}
+/*responsive styling of maps on the history page*/
+.newMap, .oldMap {
+    width: 25%;
+    margin: 0;
+    float: left;
+}
+.textRight {
+    width: 50%;
+    float: left;
+    padding-left: 5%;
 }
 }
 
