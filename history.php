@@ -89,7 +89,7 @@ echo "<link rel='stylesheet' href='css/slideshow.css' type='text/css'>"
                 <a class="next" onclick="plusGallerySlides(1)">❯</a>
                 
                 <div class="caption-container">
-                    <p id="caption"></p>
+                    <p id="caption">Old picture of the concert in the park</p>
                 </div>
                 
                 <div class="row">
