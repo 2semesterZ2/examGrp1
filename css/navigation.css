@@ -2,106 +2,152 @@
 /* Navigation bar */
 
 @media only screen and (min-width: 280px) {
-nav#desktopNav {
-    display: none;
-}
-nav#mobileNav {
-    text-align: center;
-    font-size: 0.8em;
-    font-family: 'Open Sans', sans-serif;
-}
-.menu {
-    list-style: none;
-    padding: 0.8em;
-    border: solid 1px #ffffff;
-    width: 50%;
-    float: left;
-    background-color: #747f5a;
-	box-sizing: border-box;
-}
-.menu a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-nav#mobileNav li a:hover {
-    font-weight: normal;
-}
+    nav#desktopNav {
+        display: none;
+    }
+    nav#mobileNav {
+        text-align: center;
+        font-size: 0.8em;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu {
+        list-style: none;
+        padding: 0.8em;
+        border: solid 1px #ffffff;
+        width: 50%;
+        float: left;
+        background-color: #747f5a;
+        box-sizing: border-box;
+    }
+    .menu a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+    nav#mobileNav li a:hover {
+        font-weight: normal;
+    }
 }
 
 @media only screen and (min-width: 700px) {
-nav#mobileNav {
-    display: none;
+    nav#mobileNav {
+        display: none;
+    }
+    nav#navigationIcon {
+        display: none;
+    }
+    nav#desktopNav {
+        display: block;
+        width: 100%;
+        background-color: #747f5a;
+        text-align: center;
+    }
+    button {
+        cursor: pointer;
+    }
+    .navbar {
+        overflow: hidden;
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .navbar a {
+        float: left;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* Dropdown menu*/
+    .dropdown {
+        font-family: 'Open Sans', sans-serif;
+        float: left;
+        overflow: hidden;
+    }
+    .dropbtn {
+        cursor: pointer;
+    }
+    .dropdown .dropbtn {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #f9f9f9;
+        color: #747F5A;
+    }
+    /* Options in the dropdown menu*/
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: #747F5A;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: #AEBF87;
+        color: #ffffff;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
-nav#navigationIcon {
-    display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the search box inside the navigation bar */
+.search {
+    float: right;
 }
-nav#desktopNav {
-    display: block;
-    width: 100%;
-    background-color: #747f5a;
-    text-align: center;
+
+.navbar input[type=submit] {
+    float: right;
 }
-button {
-    cursor: pointer;
-}
-.navbar {
-    overflow: hidden;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-}
-.navbar a {
-    float: left;
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Dropdown menu*/
-.dropdown {
-    font-family: 'Open Sans', sans-serif;
-    float: left;
-    overflow: hidden;
-}
-.dropbtn {
-    cursor: pointer;
-}
-.dropdown .dropbtn {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
+
+.navbar input[type=text] {
+    padding: 6px;
     border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
+    margin-top: 8px;
+    box-sizing: border-box
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #f9f9f9;
-    color: #747F5A;
-}
-/* Options in the dropdown menu*/
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    float: none;
-    color: #747F5A;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a:hover {
-    background-color: #AEBF87;
-    color: #ffffff;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .navbar input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .navbar input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
