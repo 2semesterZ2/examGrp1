@@ -31,8 +31,8 @@
        <!-- <a href="blog.php">Blog</a> --> <!-- Not finished, will be added later again when it is acutally working -->
 
         <script src="javascript/navigation.js"></script>
-        <form>
-            <input type="text" size="15" placeholder="Search.." onkeyup="showResult(this.value)">
+        <form class="search">
+            <input type="text" size="10" placeholder="Search...  |&#x1F50D;" onkeyup="showResult(this.value)">
             <div id="livesearch"></div>
         </form>
     </div>
