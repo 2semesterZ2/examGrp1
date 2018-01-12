@@ -3,7 +3,7 @@ nav#desktopNav {
     display: none;
 }
 header {
-    background-image: url(../pictures/banner-trees-logo.jpg);
+    background-image: url(../pictures/banner-trees.jpg);
     height: 100px;
 	position: relative;
 }
@@ -40,13 +40,11 @@ nav#navigationIcon img {
 	header {
 		height: auto;
 	}
-	div#logo {
-		display: none;
-	}
 #top-banner {
-    background-image: url(../pictures/banner-trees-logo.jpg);
+    background-image: url(../pictures/banner-trees.jpg);
     background-size: 100%;
     padding-top: 16.22%;
 	clear: both;
+	position: relative;
 }
 }

@@ -17,6 +17,7 @@ nav#mobileNav {
     width: 50%;
     float: left;
     background-color: #747f5a;
+	box-sizing: border-box;
 }
 .menu a {
     color: #ffffff;
