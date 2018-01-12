@@ -7,7 +7,7 @@ body {
 }
 article {
     margin: 0 5% 0 5%;
-	padding: 1% 5% 1% 5%;
+    padding: 1% 5% 1% 5%;
     background-color: #ffffff;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@ h1 {
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
-	color: #4d543d;
+    color: #4d543d;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -27,7 +27,7 @@ h2 {
     text-align: center;
     margin-top: 4%;
     margin-bottom: 1%;
-	color: #4d543d;
+    color: #4d543d;
 }
 h3 {
     font-family: 'Quicksand', sans-serif;
@@ -37,36 +37,35 @@ h3 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-	padding-top: 1%;
+    padding-top: 1%;
 }
 a {
     color: #AEBF87;
     text-decoration: none;
-    }
+}
 a:hover {
     color: #747f5a;
     text-decoration: underline;
-	font-weight: bolder;
+    font-weight: bolder;
 }
 td {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     border: none;
     outline: none;
 }
 th {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-	padding-right: 4%;
+    padding-right: 4%;
     border: none;
     outline: none;
 }
-
 /*home page styling starts here*/
 
 /* align the slideshow in the centre of the page*/
 #projectsandeventsbox {
-/*    text-align: center; */
+    /*    text-align: center; */
     max-width: 50%;
 }
 #projectsandeventsbox img {
@@ -77,7 +76,7 @@ th {
     width: 45%;
     float: left;
     margin-top: 2%;
-	padding-right: 5%;
+    padding-right: 5%;
 }
 #iframe {
     text-align: center;
@@ -180,7 +179,6 @@ textarea {
 input[type=file] {
     margin: 1% 0;
 }
-
 /*styling the contact page starts here*/
 
 .contactForm {
@@ -189,36 +187,29 @@ input[type=file] {
 .contactForm input {
     font-family: 'Open Sans', sans-serif;
 }
-
 #contactTable {
     width: 54%;
     margin: 3% 2% 0 0;
 }
 th, td {
-	padding: 2%;
+    padding: 2%;
 }
-
 div.contactForm {
-	width: 45%;
-	float: left;
+    width: 45%;
+    float: left;
 }
-
 #name {
     max-width: 90%;
 }
-
 #senderEMail {
     max-width: 90%;
 }
-
 #rsnCntct {
     max-width: 90%;
 }
-
 #msgContact {
     max-width: 90%;
 }
-
 /*events sub-page styling starts here*/
 /*centering and scaling all the images*/
 #zulubox {
@@ -284,19 +275,17 @@ div.contactForm {
 #faqs p {
     margin: 1% 5% 2% 5%;
 }
-
 /*History subpage*/
 /*large picture*/
 div.oldGallery {
-	float: right;
-	width: 40%;
-	padding: 0 0 3% 5%;
+    float: right;
+    width: 40%;
+    padding: 0 0 3% 5%;
 }
 div.largePicture img {
     width: 50%;
-	width: 100%;
+    width: 100%;
 }
-
 /*small pictures*/
 div.smallPictures {
     /*margin: 5px;*/
@@ -304,21 +293,20 @@ div.smallPictures {
     width: 30%;
 }
 div.smallPictures img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 #picture2 {
-	margin: 0 3% 0 0;
+    margin: 0 3% 0 0;
 }
 #picture3 {
-	margin: 0 2% 0 2%;
+    margin: 0 2% 0 2%;
 }
 #picture4 {
-	margin: 0 0 0 3%;
+    margin: 0 0 0 3%;
 }
-
 div.historyTextLeft {
-	clear: left;
+    clear: left;
 }
 /*ideParagraph {
 	float: left;
@@ -332,8 +320,8 @@ div.maps {
     padding: 9% 0 0 0;
 }
 div.newMap img {
-	width: 48%;
-	float: left;
+    width: 48%;
+    float: left;
 }
 div.oldMap img {
     width: 40%;
@@ -346,48 +334,39 @@ div.textRight {
     padding: 0 0 0 10%;
 }
 div.textLeft {
-	float: left;
-	width: 50%;
-	padding: 0 0 0 0;
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
 }
-
-
-
-
 /*Location subpage */
 #mapGoogle {
     padding: 0 25% 0 25%;
 }
-
 .leftInformation {
     width: 50%;
     float: left;
 }
-
 .rightMap {
     float: right;
     width: 50%;
 }
-
 #rightMapId {
     width: 65%;
     height: 65%;
     padding: 0 15% 0 30%;
 }
-
 .greyRow {
     background-color: beige;
 }
 div.distanceOfLandmarks {
-	width: 48%;
-	float: left;
+    width: 48%;
+    float: left;
 }
 div.toilets {
-	width: 48%;
-	float: left;
-	padding-left: 4%;
+    width: 48%;
+    float: left;
+    padding-left: 4%;
 }
-
 /*Under Contruction Page*/
 #underConstructionImg {
     padding: 0 10% 0 10%;
@@ -395,6 +374,24 @@ div.toilets {
 }
 
 /*responsive stylng starts here*/
+@media only screen and (min-width: 280px) {
+div#mapGoogle {
+    text-align: center;
+    padding: 0;
+}
+div#mapGoogle iframe {
+    border: 0;
+    width: 100%;
+}
+}
+
 @media only screen and (min-width: 700px) {
-	
+#mapGoogle {
+    padding: 0 10%;
+}
+}
+@media only screen and (min-width: 1050px) {
+	#mapGoogle {
+    padding: 0 25%;
+}
 }
