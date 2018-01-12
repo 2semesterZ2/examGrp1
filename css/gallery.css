@@ -1,11 +1,19 @@
 /*Gallery*/
-#jpg img {
-    padding: 5px;
+.galleryImg {
     height: 150px;
     width: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+
+#jpg img {
+    padding: 5px;
+    height: auto;
+    width: 200%;
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
-    box-sizing: border-box;
+    overflow: hidden;
 }
 /* Add a hover effect (blue shadow) */
 #jpg img:hover {
@@ -15,5 +23,3 @@
 #nbr{
     display: none;
 }
-
-

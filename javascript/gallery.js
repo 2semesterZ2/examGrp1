@@ -17,7 +17,7 @@ for (var jpgext in files) {
         jpgimg.id = imgId;
         jpgcontainer.appendChild(jpgimg);
         //make the image into a link to show it's huge version
-        var wrapCon = "<a target='_self' href='"+jpgsrc+"'></a>";  
+        var wrapCon = "<div class='galleryImg'><a target='_self' href='"+jpgsrc+"'></a></div>";  
         $('#'+imgId).wrap(wrapCon);  
       }
 }
