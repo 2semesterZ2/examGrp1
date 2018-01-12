@@ -1,0 +1,109 @@
+<pages>
+    <link>
+        <title>Home</title>
+        <url>http://final.exam.sun-dan.de/index.php</url>
+    </link>
+    <link>
+        <title>Today's Weather</title>
+        <url>http://final.exam.sun-dan.de/index.php#weatherbox</url>
+    </link>
+    <link>
+        <title>Today's Maintenance</title>
+        <url>http://final.exam.sun-dan.de/index.php#maintenancebox</url>
+    </link>
+    <link>
+        <title>Projects and Events</title>
+        <url>http://final.exam.sun-dan.de/projectsandevents.php</url>
+    </link>
+    <link>
+        <title>Upcoming Projects</title>
+        <url>http://final.exam.sun-dan.de/projects.php</url>
+    </link>
+    <link>
+        <title>New Playground</title>
+        <url>http://final.exam.sun-dan.de/projects.php#playgroundbox</url>
+    </link>
+    <link>
+        <title>Two New Rose Species Arriving</title>
+        <url>http://final.exam.sun-dan.de/projects.php#rosesbox</url>
+    </link>
+    <link>
+        <title>Parking Lot Resurfacing</title>
+        <url>http://final.exam.sun-dan.de/projects.php#parkingbox</url>
+    </link>
+    <link>
+        <title>Enter Your Project Suggestions</title>
+        <url>http://final.exam.sun-dan.de/projects.php#suggestionform</url>
+    </link>
+    <link>
+        <title>Events</title>
+        <url>http://final.exam.sun-dan.de/events.php</url>
+    </link>
+    <link>
+        <title>Zulu Outdoor Ciname</title>
+        <url>http://final.exam.sun-dan.de/events.php#zulubox</url>
+    </link>
+    <link>
+        <title>Stella Polaris</title>
+        <url>http://final.exam.sun-dan.de/events.php#stellabox</url>
+    </link>
+    <link>
+        <title>Red Bull Soapbox Race</title>
+        <url>http://final.exam.sun-dan.de/events.php#soapbox</url>
+    </link>
+    <link>
+        <title>Hosting an event</title>
+        <url>http://final.exam.sun-dan.de/events.php#hostingbox</url>
+    </link>
+    <link>
+        <title>Gallery</title>
+        <url>http://final.exam.sun-dan.de/gallery.php</url>
+    </link>
+    <link>
+        <title>Calendar</title>
+        <url>http://final.exam.sun-dan.de/calendar.php</url>
+    </link>
+    <link>
+        <title>Visitor Information / General Information</title>
+        <url>http://final.exam.sun-dan.de/visitorinfo.php</url>
+    </link>
+    <link>
+        <title>Visitor Information / General Information</title>
+        <url>http://final.exam.sun-dan.de/visitorinfo.php</url>
+    </link>
+    <link>
+        <title>Park's Location</title>
+        <url>http://final.exam.sun-dan.de/location.php</url>
+    </link>
+    <link>
+        <title>How to get here</title>
+        <url>http://final.exam.sun-dan.de/location.php#transportinfo</url>
+    </link>
+    <link>
+        <title>Toilets</title>
+        <url>http://final.exam.sun-dan.de/location.php#toilets</url>
+    </link>
+    <link>
+        <title>Short History of the Botanical Garden</title>
+        <url>http://final.exam.sun-dan.de/history.php</url>
+    </link>
+    <link>
+        <title>FAQ / Frequently Asked Questions</title>
+        <url>http://final.exam.sun-dan.de/faq.php</url>
+    </link>
+    <link>
+        <title>Contact</title>
+        <url>http://final.exam.sun-dan.de/contact.php</url>
+    </link>
+    <link>
+        <title>Send us a message</title>
+        <url>http://final.exam.sun-dan.de/contact.php#sendMsg</url>
+    </link>
+    <link>
+        <title>Facebook</title>
+        <url>https://www.facebook.com/AarhusKommune/</url>
+    </link>
+    
+</pages>
+
+

@@ -19,7 +19,7 @@ include("includes/head.php"); ?>
 			<h2>Have a question?</h2>
 			<p>We’re always happy to hear from you, and depending on the nature of your enquiry, there are a number of different ways to reach us. For a quick answer to questions related to the Botanical Park, make sure you check out our <a href="faq.php">Frequently Asked Questions</a>, otherwise keep reading to see how to get in touch.</p>
 
-			<h2>Send us a message by filling out this form: </h2>
+			<h2 id="sendMsg">Send us a message by filling out this form: </h2>
             
             <div class="contactForm">
                 <form action="mailto:kraftsa60869@th-nuernberg.de" id="contactForm" onsubmit="sendEMail()" enctype="text/plain"> 

@@ -9,12 +9,12 @@
 				<p>Address: Hack Kampmanns Plads 2</p>
 				<p>8000 Aarhus C</p>
 				<br/>
-				<p>&#128222 : 89 40 44 00</p>
+				<p>&#128222; : 89 40 44 00</p>
 			</div>
 		</div>
 		<div class="links">
 			<!--link to social media-->
-			<a href="https://www.facebook.com/AarhusKommune/">Facebook</a>
+			<a href="https://www.facebook.com/AarhusKommune/" id="facebook">Facebook</a>
 			<!--link to our blog-->
 			<p><a href="faq.php">FAQ</a>
 			</p>

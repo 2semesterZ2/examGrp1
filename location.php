@@ -108,7 +108,7 @@ include( "includes/head.php" );
 				</ul>
 			</div>
 			<!--Toilets-->
-			<div class="toilets">
+			<div id="toilets" class="toilets">
 				<h2>Toilets</h2>
 				<p>There are public toilets available at the Greenhouses. These are open 9.00am – 4.00pm on weekdays and 10.00am – 5.00pm on weekends and public holidays.</p>
 			</div>

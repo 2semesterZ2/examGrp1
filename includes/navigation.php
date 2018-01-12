@@ -29,15 +29,12 @@
         <a href="faq.php">FAQ</a>
         <a href="contact.php">Contact</a>
        <!-- <a href="blog.php">Blog</a> --> <!-- Not finished, will be added later again when it is acutally working -->
-        
-        <div class="search-container">
-            <form action="/action_page.php" class="search">
-              <input type="text" placeholder="Search.." name="search" size="15">
-              <button type="submit">Submit</button>
-            </form>
-        </div>
+
+        <script src="javascript/navigation.js"></script>
+        <form>
+            <input type="text" size="15" placeholder="Search.." onkeyup="showResult(this.value)">
+            <div id="livesearch"></div>
+        </form>
     </div>
 
-    <!-- EventListener for the buttons to redirect to the overall pages -->
-    <script src="javascript/navigation.js"></script>
 </nav>
