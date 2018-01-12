@@ -126,21 +126,13 @@ th {
 #playgroundbox {
     text-align: center;
 }
-#playgroundbox img {
-    max-width: 50%;
-}
 #rosesbox {
     text-align: center;
-}
-#rosesbox img {
-    max-width: 50%;
 }
 #parkingbox {
     text-align: center;
 }
-#parkingbox img {
-    max-width: 50%;
-}
+
 /*styling the contact form starts here*/
 #suggestionform {
     text-align: center;
@@ -199,26 +191,14 @@ input[type=file] {
 #zulubox {
     text-align: center;
 }
-#zulubox img {
-    max-width: 50%;
-}
 #stellabox {
     text-align: center;
-}
-#stellabox img {
-    max-width: 50%;
 }
 #soapbox {
     text-align: center;
 }
-#soapbox img {
-    max-width: 50%;
-}
 #hostingbox {
     text-align: center;
-}
-#hostingbox img {
-    max-width: 50%;
 }
 #hosting {
     margin: 3% 0 1% 0;
@@ -332,6 +312,10 @@ div.textLeft {
 
 /*responsive styling starts here*/
 @media only screen and (min-width: 280px) {
+/*responsive styling of images on home, projects, and events page*/
+	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
+    max-width: 95%;
+}
 /*responsive styling of location page*/
 div#desktopLocation {
     display: none;
@@ -381,8 +365,8 @@ th, td {
 }
 
 @media only screen and (min-width: 500px) {
-/*responsive styling of home page*/
-#projectsandeventsbox {
+/*responsive styling of images on home, projects, and events page*/
+	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
     max-width: 80%;
 }
 /*responsive styling of location page*/
@@ -402,9 +386,9 @@ div.toilets {
 }
 
 @media only screen and (min-width: 850px) {
-/*responsive styling of home page*/	
-#projectsandeventsbox {
-    max-width: 60%;
+/*responsive styling of images on home, projects, and events page*/
+	#projectsandeventsbox, #playgroundbox img, #rosesbox img, #parkingbox img, #zulubox img, #stellabox img, #soapbox img, #hostingbox img {
+    max-width: 50%;
 }
 /*responsive styling of location page*/
 h1 {
