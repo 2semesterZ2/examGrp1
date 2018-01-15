@@ -25,19 +25,7 @@ include( "includes/head.php" );
 			<script src="javascript/locationMap.js"></script>
 		</div>
 
-		<div id="mobileLocation">
-			<p>The Botanical Park is one of the largest parks in Aarhus, located near the city centre. It is part of the Botanical Gardens, which also contain the Greenhouses and are bordered by Den Gamle By. The park is open all day, every day and is free to enter.</p>
-			<br/>
-			<div id="mapGoogle">
-				<!--Google map of the Botanical Park-->
-				<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com" id="googelMaps" onload="setFlag()"></iframe>
-			</div>
-			<script src="javascript/locationMap.js"></script>
-			<p>It is a place where you can surround yourself with green lawns, a variety of interesting trees from its days as a botanical garden, as well as a small stream, with the entire area spanning 21.5 hectares. The perfect place for a walk or jog, as well as picnics and barbecues in the warmer months. Dog walkers are also welcome, although dogs must be kept on leads at all times. Cycling is also only allowed along Peter Holms Vej at the top of the park.</p>
-			<br/>
-		</div>
-
-
+		
 		<!--Information about the transport-->
 		<div id="transportinfo">
 			<!--How to get here-->
@@ -108,7 +96,7 @@ include( "includes/head.php" );
 				</ul>
 			</div>
 			<!--Toilets-->
-			<div id="toilets" class="toilets">
+			<div class="toilets">
 				<h2>Toilets</h2>
 				<p>There are public toilets available at the Greenhouses. These are open 9.00am – 4.00pm on weekdays and 10.00am – 5.00pm on weekends and public holidays.</p>
 			</div>
